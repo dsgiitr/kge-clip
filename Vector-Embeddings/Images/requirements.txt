@@ -11,4 +11,5 @@ requests
 numpy
 supervision
 transformers
+datasets
 git+https://github.com/openai/CLIP.git
