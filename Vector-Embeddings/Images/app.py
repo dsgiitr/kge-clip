@@ -128,7 +128,7 @@ def cluster_embeddings(embeddings, method='KMeans', n_clusters=5):
         labels = apply_dbscan(embeddings)
     return labels
 
-def visualize_embeddings(image_embeddings_transformed,labels,method,dataset):
+def visualize_embeddings(image_embeddings_transformed,labels,method,dataset,n_clusters):
 
     plt.figure(figsize=(10, 10))
     fig = px.scatter_3d(
@@ -137,10 +137,28 @@ def visualize_embeddings(image_embeddings_transformed,labels,method,dataset):
     z=image_embeddings_transformed[:, 2],
     title= f"3D Scatter Plot of {method} Reduced Data",
     labels={'x': 'Component 1', 'y': 'Component 2', 'z': 'Component 3'},
-    hover_data=dataset['moondream2_caption']
+    color=labels.astype(str),
+    symbol=labels.astype(str),
+    opacity=0.7
+    #hover_data=dataset['text']
     )
-    plt.legend(handles=fig.legend_elements()[0], labels=set(labels))
-    st.plotly_chart(plt)
+
+    fig.update_traces(
+    showlegend=True,
+    selector=dict(type='scatter3d'),
+    name='Cluster')
+
+    # Set legend labels
+    fig.update_layout(
+        legend=dict(
+            title='Cluster Labels',
+            itemsizing='constant'
+        )
+    )
+
+    st.plotly_chart(fig)
+
+image_embeddings,dataframe=get_image_embeddings(dataset)
 
 
 
@@ -151,9 +169,6 @@ dim_reduction=st.selectbox("Choose Dimension Reduction Technique",['PCA','UMAP',
 clustering_algo=st.selectbox("Choose the clustering method", ['DBSCAN','K-MEANS'])
 n_cluster=st.slider("Number of clusters", 2,10,2) if clustering_algo=="K-MEANS" else None
 
-image_embeddings,error_count=get_image_embeddings(dataset)
-
-
 if dim_reduction == "PCA":
         reduced_embeddings = apply_pca(image_embeddings)
 elif dim_reduction == "UMAP":
@@ -162,4 +177,4 @@ elif dim_reduction == "T-SNE":
         reduced_embeddings = apply_tsne(image_embeddings)
 
 labels = cluster_embeddings(reduced_embeddings, method=clustering_algo, n_clusters=n_cluster)
-visualize_embeddings(reduced_embeddings, labels,clustering_algo,dataset)
+visualize_embeddings(reduced_embeddings, labels,clustering_algo,dataframe,n_cluster)
