@@ -167,14 +167,14 @@ dim_reduction=st.selectbox("Choose Dimension Reduction Technique",['PCA','UMAP',
 clustering_algo=st.selectbox("Choose the clustering method", ['DBSCAN','K-MEANS'])
 n_cluster=st.slider("Number of clusters", 2,10,2) if clustering_algo=="K-MEANS" else None
 
+image_embeddings,dataframe=get_image_embeddings(dataset)
+
 if dim_reduction == "PCA":
         reduced_embeddings = apply_pca(image_embeddings)
 elif dim_reduction == "UMAP":
         reduced_embeddings = apply_umap(image_embeddings)
 elif dim_reduction == "T-SNE":
         reduced_embeddings = apply_tsne(image_embeddings)
-
-image_embeddings,dataframe=get_image_embeddings(dataset)
 
 labels = cluster_embeddings(reduced_embeddings, method=clustering_algo, n_clusters=n_cluster)
 visualize_embeddings(reduced_embeddings, labels,clustering_algo,dataframe,n_cluster)
