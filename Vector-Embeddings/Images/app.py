@@ -145,8 +145,8 @@ def visualize_embeddings(image_embeddings_transformed,labels,method,dataset):
 
 
 st.title("CLIP Image Embeddings")
+st.sidebar.image("dsg_iitr_logo.jpg",use_column_width=True)
 st.sidebar.text("The dataset is Subset of COYO 400M Image-Text pairs")
-st.sidebar.image("dsg_iitr_logo.jpg")
 dim_reduction=st.selectbox("Choose Dimension Reduction Technique",['PCA','UMAP','T-SNE'])
 clustering_algo=st.selectbox("Choose the clustering method", ['DBSCAN','K-MEANS'])
 n_cluster=st.slider("Number of clusters", 2,10,2) if clustering_algo=="K-MEANS" else None
