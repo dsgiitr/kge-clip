@@ -75,7 +75,7 @@ def get_image_embeddings(data):
     dataframe=pd.DataFrame({'url':data_url,'text':data_text})
     for _,row in dataframe.iterrows():
             image_url = row['url']
-            text=row['moondream2_caption']
+            text=row['text']
             try:
                 coutn+=1
     
