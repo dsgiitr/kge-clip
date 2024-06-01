@@ -27,14 +27,14 @@ processor=CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
 from datasets import load_dataset
 
 #dataset=load_dataset("isidentical/moondream2-coyo-5M-captions")['train']
-n=100 #number of samples
+n=10 #number of samples
 #dataset=dataset[:n]
 
 
 dataset = load_dataset("isidentical/moondream2-coyo-5M-captions")['train']
 dataset=dataset[:n]
 
-def plot_images_grid(images, grid_size=(5, 5), titles=None, size=(5, 5), cmap=None):
+def plot_images_grid(images,text,grid_size=(5, 5), titles=None, size=(5, 5), cmap=None):
     from math import ceil
     
     nrows, ncols = grid_size
@@ -45,7 +45,7 @@ def plot_images_grid(images, grid_size=(5, 5), titles=None, size=(5, 5), cmap=No
     else:
         axes = axes.flatten()
     
-    for idx, img in enumerate(images):
+    for idx, (img,txt) in enumerate(zip(images,text)):
         if isinstance(img, Image.Image):
             img = img.convert("RGB")
         if cmap:
@@ -53,17 +53,15 @@ def plot_images_grid(images, grid_size=(5, 5), titles=None, size=(5, 5), cmap=No
         else:
             axes[idx].imshow(img)
         
-        if titles:
-            axes[idx].set_title(titles[idx], fontsize=10)
+        axes[idx].set_title(txt, fontsize=10)
         
         axes[idx].axis('off')
-    
-
+        
     for ax in axes[len(images):]:
         ax.axis('off')
     
     plt.tight_layout()
-    plt.show()
+    st.sidebar.pyplot(fig)
 
 
 def get_image_embeddings(data):
@@ -71,13 +69,17 @@ def get_image_embeddings(data):
     error_urls = []
     image_embeddings = [] 
     coutn=0
-    for url in data['url']:
-            image_url = url
-            try:
+    data_text=data['moondream2_caption']
+    data_url=data['url']
     
+    dataframe=pd.DataFrame({'url':data_url,'text':data_text})
+    for _,row in dataframe.iterrows():
+            image_url = row['url']
+            text=row['moondream2_caption']
+            try:
                 coutn+=1
     
-                if coutn == 50:
+                if coutn == 10:
                     break
     
                 response = requests.get(image_url)
@@ -85,7 +87,7 @@ def get_image_embeddings(data):
     
                 # Check if the content type is an image
                 image=Image.open(BytesIO(response.content))
-                #plot_images_grid([image], grid_size=(1, 1))
+                plot_images_grid([image],[text], grid_size=(1, 1))
     
     
                 inputs=processor(images=image,return_tensors="pt").to(device)
@@ -99,7 +101,7 @@ def get_image_embeddings(data):
 
     return image_embeddings, error_count
     
-
+    
 
 def apply_pca(image_embeddings,n_components=3):
     pca=PCA(n_components=n_components)
