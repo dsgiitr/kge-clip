@@ -85,7 +85,7 @@ def get_image_embeddings(data):
     
                 # Check if the content type is an image
                 image=Image.open(BytesIO(response.content))
-                plot_images_grid([image], grid_size=(1, 1))
+                #plot_images_grid([image], grid_size=(1, 1))
     
     
                 inputs=processor(images=image,return_tensors="pt").to(device)
@@ -126,7 +126,7 @@ def cluster_embeddings(embeddings, method='KMeans', n_clusters=5):
         labels = apply_dbscan(embeddings)
     return labels
 
-def visualize_embeddings(image_embeddings_transformed,labels,method,dataset,n_clusters):
+def visualize_embeddings(image_embeddings_transformed,labels,method,dataset):
 
     plt.figure(figsize=(10, 10))
     fig = px.scatter_3d(
@@ -159,4 +159,4 @@ elif dim_reduction == "T-SNE":
         reduced_embeddings = apply_tsne(image_embeddings)
 
 labels = cluster_embeddings(reduced_embeddings, method=clustering_algo, n_clusters=n_cluster)
-visualize_embeddings(reduced_embeddings, labels)
+visualize_embeddings(reduced_embeddings, labels,clustering_algo,dataset)
