@@ -71,31 +71,32 @@ def get_image_embeddings(data):
     error_urls = []
     image_embeddings = [] 
     coutn=0
-    for _, row in data.iterrows():
-        image_url = example['url']
-        try:
-
-            coutn+=1
-
-            if coutn == 50:
-                break
-
-            response = requests.get(image_url)
-            response.raise_for_status()  # Raise an exception for non-2xx status codes
-
-            # Check if the content type is an image
-            image=Image.open(BytesIO(response.content))
-            plot_images_grid([image], grid_size=(1, 1))
-
-
-            inputs=processor(images=image,return_tensors="pt").to(device)
-            with torch.no_grad():
-                image_embedding=model.get_image_features(**inputs)
-            image_embeddings.append(image_embedding.squeeze().cpu().numpy())
-
-        except (requests.exceptions.RequestException, UnidentifiedImageError, ValueError) as e:
-            error_urls.append(image_url)
-            error_count += 1
+    for _,dataframe in data.items():
+          for _, row in dataframe.iterrows():
+            image_url = example['url']
+            try:
+    
+                coutn+=1
+    
+                if coutn == 50:
+                    break
+    
+                response = requests.get(image_url)
+                response.raise_for_status()  # Raise an exception for non-2xx status codes
+    
+                # Check if the content type is an image
+                image=Image.open(BytesIO(response.content))
+                plot_images_grid([image], grid_size=(1, 1))
+    
+    
+                inputs=processor(images=image,return_tensors="pt").to(device)
+                with torch.no_grad():
+                    image_embedding=model.get_image_features(**inputs)
+                image_embeddings.append(image_embedding.squeeze().cpu().numpy())
+    
+            except (requests.exceptions.RequestException, UnidentifiedImageError, ValueError) as e:
+                error_urls.append(image_url)
+                error_count += 1
 
     return image_embeddings, error_count
     
