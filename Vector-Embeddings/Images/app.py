@@ -31,7 +31,8 @@ n=100 #number of samples
 #dataset=dataset[:n]
 
 
-dataset = load_dataset("isidentical/moondream2-coyo-5M-captions", split='train[:n]')
+dataset = load_dataset("isidentical/moondream2-coyo-5M-captions")['train']
+dataset=dataset[:n]
 
 def plot_images_grid(images, grid_size=(5, 5), titles=None, size=(5, 5), cmap=None):
     from math import ceil
