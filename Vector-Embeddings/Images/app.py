@@ -71,9 +71,8 @@ def get_image_embeddings(data):
     error_urls = []
     image_embeddings = [] 
     coutn=0
-    for _,dataframe in data.items():
-          for _, row in dataframe.iterrows():
-            image_url = example['url']
+    for url in data['url']:
+            image_url = url
             try:
     
                 coutn+=1
