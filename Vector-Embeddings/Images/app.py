@@ -164,7 +164,8 @@ image_embeddings,dataframe=get_image_embeddings(dataset)
 
 st.title("CLIP Image Embeddings")
 st.sidebar.image("dsg_iitr_logo.jpg",use_column_width=True)
-st.sidebar.text("The dataset is Subset of COYO 400M Image-Text pairs [LINK]("https://huggingface.co/datasets/isidentical/moondream2-coyo-5M-captions")")
+url="https://huggingface.co/datasets/isidentical/moondream2-coyo-5M-captions"
+st.sidebar.text("The dataset is Subset of COYO 400M Image-Text pairs [link](%s)"%url)
 dim_reduction=st.selectbox("Choose Dimension Reduction Technique",['PCA','UMAP','T-SNE'])
 clustering_algo=st.selectbox("Choose the clustering method", ['DBSCAN','K-MEANS'])
 n_cluster=st.slider("Number of clusters", 2,10,2) if clustering_algo=="K-MEANS" else None
