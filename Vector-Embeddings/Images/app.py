@@ -66,7 +66,7 @@ def plot_images_grid(images, grid_size=(5, 5), titles=None, size=(5, 5), cmap=No
     plt.show()
 
 
-def get_image_embeddings(image):
+def get_image_embeddings(data):
     error_count = 0
     error_urls = []
     image_embeddings = [] 
