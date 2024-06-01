@@ -70,9 +70,8 @@ def get_image_embeddings(data):
     error_count = 0
     error_urls = []
     image_embeddings = [] 
-    countn=0
-    for example in tqdm(data):
-
+    coutn=0
+    for _, row in data.iterrows():
         image_url = example['url']
         try:
 
