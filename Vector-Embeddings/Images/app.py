@@ -158,9 +158,6 @@ def visualize_embeddings(image_embeddings_transformed,labels,method,dataset,n_cl
 
     st.plotly_chart(fig)
 
-image_embeddings,dataframe=get_image_embeddings(dataset)
-
-
 
 st.title("CLIP Image Embeddings")
 st.sidebar.image("dsg_iitr_logo.jpg",use_column_width=True)
@@ -176,6 +173,8 @@ elif dim_reduction == "UMAP":
         reduced_embeddings = apply_umap(image_embeddings)
 elif dim_reduction == "T-SNE":
         reduced_embeddings = apply_tsne(image_embeddings)
+
+image_embeddings,dataframe=get_image_embeddings(dataset)
 
 labels = cluster_embeddings(reduced_embeddings, method=clustering_algo, n_clusters=n_cluster)
 visualize_embeddings(reduced_embeddings, labels,clustering_algo,dataframe,n_cluster)
