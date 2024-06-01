@@ -99,9 +99,8 @@ def get_image_embeddings(data):
 
     return image_embeddings, error_count
     
-    
 
-    
+
 def apply_pca(image_embeddings,n_components=3):
     pca=PCA(n_components=n_components)
     return pca.fit_transform(image_embeddings)
@@ -159,5 +158,5 @@ elif dim_reduction == "UMAP":
 elif dim_reduction == "T-SNE":
         reduced_embeddings = apply_tsne(image_embeddings)
 
-labels = cluster_embeddings(reduced_embeddings, method=clustering_algo, n_clusters=n_cluster,dataset=dataset)
+labels = cluster_embeddings(reduced_embeddings, method=clustering_algo, n_clusters=n_cluster)
 visualize_embeddings(reduced_embeddings, labels)
