@@ -69,6 +69,7 @@ def get_image_embeddings(data):
     error_urls = []
     image_embeddings = [] 
     coutn=0
+    c=0
     data_text=data['llm_caption']
     data_url=data['url']
     
@@ -87,7 +88,9 @@ def get_image_embeddings(data):
     
                 # Check if the content type is an image
                 image=Image.open(BytesIO(response.content))
-                plot_images_grid([image],[text], grid_size=(1, 1))
+                if c<5:
+                  plot_images_grid([image],[text], grid_size=(1, 1))
+                  c+=1
     
     
                 inputs=processor(images=image,return_tensors="pt").to(device)
