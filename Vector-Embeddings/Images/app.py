@@ -128,7 +128,7 @@ def cluster_embeddings(embeddings, method='KMeans', n_clusters=5):
         labels = apply_dbscan(embeddings)
     return labels
 
-def visualize_embeddings(image_embeddings_transformed,labels,method,dataset,n_clusters):
+def visualize_embeddings(image_embeddings_transformed,labels,method,test_dataset,n_clusters):
 
     plt.figure(figsize=(10, 10))
     fig = px.scatter_3d(
