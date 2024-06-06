@@ -128,7 +128,7 @@ def cluster_embeddings(embeddings, method='KMeans', n_clusters=5):
         labels = apply_dbscan(embeddings)
     return labels
 
-def visualize_embeddings(image_embeddings_transformed,labels,method,test_dataset,n_clusters):
+def visualize_embeddings(image_embeddings_transformed,labels,method,dataset,n_clusters):
 
     plt.figure(figsize=(10, 10))
     fig = px.scatter_3d(
@@ -167,7 +167,7 @@ dim_reduction=st.selectbox("Choose Dimension Reduction Technique",['PCA','UMAP',
 clustering_algo=st.selectbox("Choose the clustering method", ['DBSCAN','K-MEANS'])
 n_cluster=st.slider("Number of clusters", 2,10,2) if clustering_algo=="K-MEANS" else None
 
-image_embeddings,dataframe=get_image_embeddings(dataset)
+image_embeddings,dataframe=get_image_embeddings(test_dataset)
 
 if dim_reduction == "PCA":
         reduced_embeddings = apply_pca(image_embeddings)
