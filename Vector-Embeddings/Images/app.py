@@ -31,8 +31,8 @@ n=10 #number of samples
 #dataset=dataset[:n]
 
 
-dataset = load_dataset("isidentical/moondream2-coyo-5M-captions")['train']
-dataset=dataset[:n]
+train_dataset=load_dataset("recastai/coyo-75k-augmented-captions")['train']
+test_dataset=load_dataset("recastai/coyo-75k-augmented-captions")['test']
 
 def plot_images_grid(images,text,grid_size=(5, 5), titles=None, size=(5, 5), cmap=None):
     from math import ceil
@@ -69,17 +69,17 @@ def get_image_embeddings(data):
     error_urls = []
     image_embeddings = [] 
     coutn=0
-    data_text=data['moondream2_caption']
+    data_text=data['llm_caption']
     data_url=data['url']
     
     dataframe=pd.DataFrame({'url':data_url,'text':data_text})
     for _,row in dataframe.iterrows():
             image_url = row['url']
-            text=row['text']
+            text=row['text'][0] #selecting 1st caption for image from list
             try:
                 coutn+=1
     
-                if coutn == 10:
+                if coutn == 500:
                     break
     
                 response = requests.get(image_url)
@@ -161,7 +161,7 @@ def visualize_embeddings(image_embeddings_transformed,labels,method,dataset,n_cl
 
 st.title("CLIP Image Embeddings")
 st.sidebar.image("dsg_iitr_logo.jpg",use_column_width=True)
-url="https://huggingface.co/datasets/isidentical/moondream2-coyo-5M-captions"
+url="https://huggingface.co/datasets/recastai/coyo-75k-augmented-captions"
 st.sidebar.text("The dataset is Subset of COYO 400M Image-Text pairs [link](%s)"%url)
 dim_reduction=st.selectbox("Choose Dimension Reduction Technique",['PCA','UMAP','T-SNE'])
 clustering_algo=st.selectbox("Choose the clustering method", ['DBSCAN','K-MEANS'])
