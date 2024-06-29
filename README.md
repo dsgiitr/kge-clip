@@ -7,4 +7,4 @@
 - We reduced the dataset to 1000 working urls and short description
 
 ### Coyo subset 1k Dataset Link
-[coyo-1k-reduced](https://www.kaggle.com/datasets/anantjain1223/coyo-1k-reduced)
+[COYO-1k](https://www.kaggle.com/datasets/anantjain1223/coyo-1k-reduced)
