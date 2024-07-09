@@ -23,6 +23,7 @@ os.environ['HF_HUB_DISABLE_SYMLINKS_WARNING'] = '1'
 # Streamlit app
 st.title("CLIP Image Embeddings")
 st.sidebar.text("The dataset is a 75k subset of COYO Image-Text pairs")
+st.sidebar.image("media/dsg_iitr_logo.jpg", use_column_width=True)
 
 # Choose dimensionality reduction technique
 dim_reduction = st.selectbox("Choose Dimension Reduction Technique", ['PCA', 'UMAP', 'T-SNE'])
