@@ -20,10 +20,17 @@ from datasets import load_dataset
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 os.environ['HF_HUB_DISABLE_SYMLINKS_WARNING'] = '1'
 
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Construct the full path to the image file
+image_path = os.path.join(current_dir, "dsg_iitr_logo.jpg")
+
+# Sidebar logo
+
 # Streamlit app
 st.title("CLIP Image Embeddings")
 st.sidebar.text("The dataset is a 75k subset of COYO Image-Text pairs")
-st.sidebar.image("dsg_iitr_logo.jpg", use_column_width=True)
+st.sidebar.image(image_path, use_column_width=True)
 
 # Choose dimensionality reduction technique
 dim_reduction = st.selectbox("Choose Dimension Reduction Technique", ['PCA', 'UMAP', 'T-SNE'])
