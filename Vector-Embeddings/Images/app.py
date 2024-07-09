@@ -1,3 +1,4 @@
+import os
 import numpy as np
 import pandas as pd
 import streamlit as st
@@ -14,6 +15,10 @@ from transformers import CLIPProcessor, CLIPModel
 from PIL import UnidentifiedImageError
 import plotly.express as px
 from datasets import load_dataset
+
+# Set environment variables to address TensorFlow warnings
+os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
+os.environ['HF_HUB_DISABLE_SYMLINKS_WARNING'] = '1'
 
 # Streamlit app
 st.title("CLIP Image Embeddings")
