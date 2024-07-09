@@ -15,6 +15,9 @@ from transformers import CLIPProcessor, CLIPModel
 from PIL import UnidentifiedImageError
 import plotly.express as px
 from datasets import load_dataset
+from sklearn.manifold import trustworthiness
+from sklearn.metrics import pairwise_distances
+from sklearn.manifold import Isomap
 
 # Set environment variables to address TensorFlow warnings
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
@@ -142,8 +145,48 @@ def visualize_embeddings(image_embeddings_transformed, labels, method, dataset, 
     )
     st.plotly_chart(fig)
 
-image_embeddings, dataframe = get_image_embeddings(test_dataset)
+def compute_trustworthiness(X, X_embedded, n_neighbors=5):
+    return trustworthiness(X, X_embedded, n_neighbors=n_neighbors)
 
+def compute_continuity(X, X_embedded, n_neighbors=5):
+    og_dist = pairwise_distances(X)
+    emb_dist = pairwise_distances(X_embedded)
+
+    n_samples = X.shape[0]
+    rank_og = np.argsort(np.argsort(og_dist, axis=1), axis=1)
+    rank_emb = np.argsort(np.argsort(emb_dist, axis=1), axis=1)
+
+    continuity_score = 0.0
+
+    for i in range(n_samples):
+        original_neighbors = np.argsort(og_dist[i])[:n_neighbors]
+        embedded_neighbors = np.argsort(emb_dist[i])[:n_neighbors]
+
+        diff = np.setdiff1d(original_neighbors, embedded_neighbors)
+
+        for j in diff:
+            continuity_score += (rank_emb[i, j] - n_neighbors)
+
+    continuity_score = 1 - (2.0 / (n_samples * n_neighbors * (2 * n_samples - 3 * n_neighbors - 1))) * continuity_score
+
+    return continuity_score
+
+def compute_gdp(X, X_embedded, n_neighbors=5):
+    def compute_geodesic_distances(X, n_neighbors=5):
+        isomap = Isomap(n_neighbors=n_neighbors, n_components=2)
+        isomap.fit(X)
+        geodesic_distances = isomap.dist_matrix_
+        return geodesic_distances
+
+    geodesic_distances = compute_geodesic_distances(X, n_neighbors=n_neighbors)
+    embedded_distances = pairwise_distances(X_embedded)
+
+    stress = np.sum((geodesic_distances - embedded_distances)**2)
+    original_sum = np.sum(geodesic_distances**2)
+
+    return np.sqrt(stress / original_sum)
+
+# Compute metrics for chosen dimensionality reduction technique
 if dim_reduction == "PCA":
     reduced_embeddings = apply_pca(image_embeddings)
 elif dim_reduction == "UMAP":
@@ -151,5 +194,21 @@ elif dim_reduction == "UMAP":
 elif dim_reduction == "T-SNE":
     reduced_embeddings = apply_tsne(image_embeddings)
 
+# Calculate metrics
+trustworthiness_score = compute_trustworthiness(image_embeddings, reduced_embeddings)
+continuity_score = compute_continuity(image_embeddings, reduced_embeddings)
+gdp_score = compute_gdp(image_embeddings, reduced_embeddings)
+
+# Display metrics in a table
+st.subheader(f"Metrics for {dim_reduction}")
+metrics_df = pd.DataFrame({
+    'Technique': [dim_reduction],
+    'Trustworthiness': [trustworthiness_score],
+    'Continuity': [continuity_score],
+    'Geodesic Distance Preservation': [gdp_score]
+})
+st.table(metrics_df)
+
+# Cluster and visualize embeddings
 labels = cluster_embeddings(reduced_embeddings, method=clustering_algo, n_clusters=n_cluster)
 visualize_embeddings(reduced_embeddings, labels, clustering_algo, dataframe, n_cluster)
