@@ -1,6 +1,6 @@
 # Knowledge Graph Embeddings
 
-Welcome to the **Knowledge Graph Embeddings KGE !**. 
+Welcome to the **Knowledge Graph Embeddings KGE!**. 
 
 This project is an exploration into how we can bridge the gap between text and image embeddings within a shared 3D space. Through this journey, we aim to discover the hidden relationships and contextual understandings that traditional methods might miss. Let’s dive in! 🚀
 
@@ -22,8 +22,31 @@ Here’s how we tackled the problem step-by-step:
    - **Image Embeddings:** Generated using `CLIP`.
    - **Dimensionality Reduction:** Applied `PCA`, `T-SNE`, and `UMAP` to reduce the embeddings into a 3D space.
 
+
    ```python
    # Example: Generating text embeddings with USE
    import tensorflow as tf
    embed = hub.load("https://tfhub.dev/google/universal-sentence-encoder/4")
    text_embedding = embed(["This is an example sentence."])
+
+3. **Visualization & Analysis:** 
+   We visualized these embeddings using TensorBoard and noticed a significant lack of context-aware embeddings, leading to poor correlation between text and image representations.
+
+4. **Knowledge Graph Construction:**
+   We constructed knowledge graphs using triplet extraction with REBEL and visualized them using NetworkX, Plotly, Graphviz, and Neo4j.
+   ``` python
+   # Example: Visualizing a knowledge graph with NetworkX
+   import networkx as nx
+   G = nx.Graph()
+   G.add_edges_from([(1, 2), (2, 3)])
+   nx.draw(G, with_labels=True)
+   ```
+5. **Embedding Knowledge Graphs:**
+
+   Created embeddings for these knowledge graphs to assess their impact on contextual understanding.
+
+
+### Results
+Through our analysis, we confirmed that without a knowledge graph, embeddings fail to capture the rich contextual relationships between text and images. With knowledge graph embeddings, we observed a marked improvement in the alignment and contextual relevance of embeddings in the 3D space.
+
+KGE highlights the limitations of traditional embeddings from LLMs and generative models. By incorporating knowledge graph embeddings, we can achieve a much deeper and more accurate contextual understanding. Our next step? ### Exploring Graph Retrieval-Augmented Generation (RAG) to push the boundaries of generative models even further!
