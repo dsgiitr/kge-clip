@@ -1,6 +1,8 @@
 # Knowledge Graph Embeddings
 
-Welcome to the **Knowledge Graph Embeddings** project! This project is an exploration into how we can bridge the gap between text and image embeddings within a shared 3D space. Through this journey, we aim to discover the hidden relationships and contextual understandings that traditional methods might miss. Let’s dive in! 🚀
+Welcome to the **Knowledge Graph Embeddings KGE !**. 
+
+This project is an exploration into how we can bridge the gap between text and image embeddings within a shared 3D space. Through this journey, we aim to discover the hidden relationships and contextual understandings that traditional methods might miss. Let’s dive in! 🚀
 
 ## Are Vector Embeddings even a problem!?
 
