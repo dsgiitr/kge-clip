@@ -1,0 +1,146 @@
+,head,relation,tail
+0,chips,part of,sandwich
+1,sandwich,has part,chips
+2,chip,part of,sandwich
+3,salariess,subclass of,wage
+4,wage,different from,salariess
+5,salariess,different from,wage
+6,dock,subclass of,body of water
+7,dock,uses,water
+8,dock,subclass of,water
+9,handbag,has part,pink
+10,handbag,has part,white
+11,handbag,color,pink
+12,heart,part of,bracelet
+13,bracelet,has part,heart
+14,heart on it,part of,bracelet
+15,Little girl,subclass of,girl
+16,Little girl,instance of,girl
+17,Little girl,uses,her hands on her hips
+18,living room,has part,window
+19,window,part of,living room
+20,living room,has parts of the class,furniture
+21,autograph,subclass of,signing
+22,signing autographs,facet of,young boy
+23,signing autographs,product or material produced,autograph
+24,diamond ring,has part,ruby
+25,diamond,use,ring
+26,ruby,subclass of,diamond
+27,microphone,part of,podium
+28,podium,has part,microphone
+29,microphone,subclass of,podium
+30,trumpet,applies to jurisdiction,uniform
+31,trumpet,use,uniform
+32,trumpet,part of,uniform
+33,lens,part of,camera
+34,camera,has part,lens
+35,mannequin mannequin mannequin mannequin mannequin mannequin mannequin mannequin mann,depicts,mannequin mannequin mannequin mannequin mannequin mann
+36,mannequin mannequin mannequin mannequin mannequin mannequin mannequin mann,depicts,mannequin mannequin mannequin mannequin mannequin mann
+37,mannequin mannequin mannequin mannequin mannequin mannequin mannequin mannequin mann,has parts of the class,mannequin mannequin mannequin mannequin mannequin mann
+38,suit,has part,tie
+39,tie,subclass of,suit
+40,tie,part of,suit
+41,sprayer,part of,tractor
+42,tractor,has part,sprayer
+43,tractor,item operated,sprayer
+44,appliances,part of,kitchen
+45,cabinets,part of,kitchen
+46,kitchen,has part,cabinets
+47,signs,part of,street
+48,signs,subclass of,walking
+49,signs,part of,walking down a street
+50,chain strap,part of,purse
+51,purse,has part,chain strap
+52,hose,has part,fitting
+53,fitting,part of,hose
+54,hose fitting,has part,white
+55,courtroom,subclass of,group of people
+56,courtroom,subclass of,group of people standing next to each other
+57,courtroom,has part,group of people
+58,colorful dress,subclass of,painting
+59,colorful dress,field of work,painting
+60,colorful dress,instance of,painting
+61,car,has part,flames
+62,car,has effect,flames
+63,fire,has effect,flames
+64,woman,child,child
+65,child,mother,woman
+66,picture,depicts,woman
+67,leaves,facet of,orchid
+68,green leaves,facet of,orchid
+69,leaves,field of work,painting
+70,yellow raft,subclass of,raft
+71,raft,has part,body of water
+72,raft,has part,water
+73,blue glove,part of,box
+74,box,has part,gloves
+75,blue gloves,part of,box
+76,counter top,part of,kitchen
+77,counter tops,part of,kitchen
+78,kitchen,has part,cabinets
+79,cabinets,part of,kitchen
+80,power filterr,part of,aquarium
+81,power filterr,use,aquarium
+82,power filter,part of,aquarium
+83,projector screen,part of,classroom
+84,projector,part of,classroom
+85,projector,subclass of,screen
+86,wedding dress,depicts,woman
+87,wedding,uses,dress
+88,wedding dress,facet of,woman
+89,snow covered ground,has part,snow
+90,snow covered ground,subclass of,snow
+91,snow covered ground,facet of,snow
+92,bridge,crosses,train track
+93,train track,connects with,bridge
+94,bridge,connects with,train track
+95,under a bridge,crosses,train track
+96,dress,subclass of,photo
+97,dress,depicts,woman
+98,dress,instance of,photo
+99,2019 subaruna,point in time,2019
+100,2019,point in time,2019
+101,subaruna,inception,2019
+102,helmet,has part,logo
+103,logo,part of,helmet
+104,pittsburgh steelers,owner of,logo
+105,logo,owned by,pittsburgh steelers
+106,painting,depicts,bird
+107,bird,subclass of,flowers
+108,man,field of work,painting
+109,skull,subclass of,knitted
+110,skull,instance of,knitted
+111,Knitted skull,depicts,skull
+112,drinks,part of,table
+113,drink,part of,table
+114,glass,use,drink
+115,website design,part of,website
+116,website design,facet of,website
+117,website,has part,website design
+118,photo,depicts,town
+119,old black and white photo,depicts,town
+120,town,subclass of,photo
+121,ceiling fan,part of,bed room
+122,bed room,has part,bed
+123,bed,part of,bed room
+124,table,opposite of,floor
+125,table,different from,floor
+126,floor,different from,table
+127,car,has part,interior
+128,interior,part of,car
+129,oven,subclass of,stove top
+130,oven,part of,kitchen
+131,oven,part of,stove top
+132,docked,subclass of,boat
+133,docked,subclass of,boats
+134,boats,use,docked
+135,passport,used by,person
+136,passport,owned by,person
+137,passport,subclass of,person
+138,table,part of,dinning room
+139,dinning room,has part,table
+140,toilet,part of,bathroom
+141,shower,part of,bathroom
+142,hat,has part,white
+143,green,has part,white
+144,green,opposite of,white
