@@ -51,4 +51,5 @@ Here’s how we tackled the problem step-by-step:
 ## Insights and Future Scope
 Through our analysis, we confirmed that without a knowledge graph, embeddings fail to capture the rich contextual relationships between text and images. With knowledge graph embeddings, we observed a marked improvement in the alignment and contextual relevance of embeddings in the 3D space.
 
-KGE highlights the limitations of traditional embeddings from LLMs and generative models. By incorporating knowledge graph embeddings, we can achieve a much deeper and more accurate contextual understanding. Our next step? ### Exploring Graph Retrieval-Augmented Generation (RAG) to push the boundaries of generative models even further!
+KGE highlights the limitations of traditional embeddings from LLMs and generative models. By incorporating knowledge graph embeddings, we can achieve a much deeper and more accurate contextual understanding. Our next step? 
+### Exploring Graph Retrieval-Augmented Generation (GraphRAG) for Generative Models.
