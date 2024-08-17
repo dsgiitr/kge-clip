@@ -1,6 +1,8 @@
-# Knowledge Graph Embeddings
+# Knowledge Graph Embeddings for RAG-LLMs
 
-Welcome to the **Knowledge Graph Embeddings KGE!**. 
+![Knowledge Graph](https://github.com/AGAMPANDEYY/kge-clip-fork1/blob/main/media/KG_1.png)
+
+### Welcome to the **Knowledge Graph Embeddings KGE!**. 
 
 This project is an exploration into how we can bridge the gap between text and image embeddings within a shared 3D space. Through this journey, we aim to discover the hidden relationships and contextual understandings that traditional methods might miss.
 
