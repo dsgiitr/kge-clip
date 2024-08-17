@@ -7,7 +7,7 @@ requests
 scikit-learn
 umap-learn
 matplotlib
-transformers==4.18.0
 plotly
-datasets
 tqdm
+transformers
+datasets
