@@ -10,7 +10,7 @@ When we create vector embeddings for text and images using Large Language Models
 
 - Our goal is to bring clarity and meaning by leveraging the power of knowledge graphs.
 
-## Methodology 
+## Here's the workflow we followed:
 
 Here’s how we tackled the problem step-by-step:
 
@@ -46,7 +46,7 @@ Here’s how we tackled the problem step-by-step:
    Created embeddings for these knowledge graphs to assess their impact on contextual understanding.
 
 
-### Results
+## Results
 Through our analysis, we confirmed that without a knowledge graph, embeddings fail to capture the rich contextual relationships between text and images. With knowledge graph embeddings, we observed a marked improvement in the alignment and contextual relevance of embeddings in the 3D space.
 
 KGE highlights the limitations of traditional embeddings from LLMs and generative models. By incorporating knowledge graph embeddings, we can achieve a much deeper and more accurate contextual understanding. Our next step? ### Exploring Graph Retrieval-Augmented Generation (RAG) to push the boundaries of generative models even further!
