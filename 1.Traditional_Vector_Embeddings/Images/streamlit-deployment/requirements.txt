@@ -1,0 +1,13 @@
+numpy
+pandas
+streamlit
+torch
+Pillow
+requests
+scikit-learn
+umap-learn
+matplotlib
+plotly
+tqdm
+transformers
+datasets
