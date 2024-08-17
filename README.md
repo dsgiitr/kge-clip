@@ -4,7 +4,7 @@ Welcome to the **Knowledge Graph Embeddings KGE!**.
 
 This project is an exploration into how we can bridge the gap between text and image embeddings within a shared 3D space. Through this journey, we aim to discover the hidden relationships and contextual understandings that traditional methods might miss.
 
-## Are Vector Embeddings even a problem!?
+## Are Traditional Vector Embeddings even a problem!?
 
 When we create vector embeddings for text and images using Large Language Models (LLMs) or generative models, the results often lack contextual depth. Imagine having a map but no sense of direction—that’s what these embeddings feel like! 
 
@@ -46,7 +46,7 @@ Here’s how we tackled the problem step-by-step:
    Created embeddings for these knowledge graphs to assess their impact on contextual understanding.
 
 
-## Results
+## Insights and Future Scope
 Through our analysis, we confirmed that without a knowledge graph, embeddings fail to capture the rich contextual relationships between text and images. With knowledge graph embeddings, we observed a marked improvement in the alignment and contextual relevance of embeddings in the 3D space.
 
 KGE highlights the limitations of traditional embeddings from LLMs and generative models. By incorporating knowledge graph embeddings, we can achieve a much deeper and more accurate contextual understanding. Our next step? ### Exploring Graph Retrieval-Augmented Generation (RAG) to push the boundaries of generative models even further!
