@@ -14,10 +14,10 @@ When we create vector embeddings for text and images using Large Language Models
 
 Here’s how we tackled the problem step-by-step:
 
-1. **📂 Dataset Preparation:**  
+1. **Dataset Preparation:**  
    We started with the COYO 700M text-image pair dataset and created a focused subset of 1,000 `{text: image}` pairs for our study.
 
-2. **🔢 Embedding Generation:**  
+2. **Embedding Generation:**  
    - **Text Embeddings:** Generated using `Universal Sentence Encoder (USE)`, `InferSent`, and `CLIP`.  
    - **Image Embeddings:** Generated using `CLIP`.
    - **Dimensionality Reduction:** Applied `PCA`, `T-SNE`, and `UMAP` to reduce the embeddings into a 3D space.
