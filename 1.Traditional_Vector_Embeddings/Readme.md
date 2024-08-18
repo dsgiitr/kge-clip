@@ -10,6 +10,8 @@ Traditional vector embeddings are fundamental techniques used to represent textu
 ## Challenges with Traditional Vector Embeddings
 While traditional vector embeddings are powerful, they exhibit certain limitations, particularly when applied to Retrieval-Augmented Generation (RAG) or general Large Language Models (LLMs):
 
+<img src= "https://github.com/AGAMPANDEYY/kge-clip-fork1/blob/main/media/vectoremb_db_llms.png" width= "600">
+
 1. **Contextual Limitations:** Embeddings may lack contextual understanding, leading to inaccurate representations in complex scenarios.
 2. **Dimensionality Issues:** High-dimensional vectors can be challenging to work with, leading to computational inefficiencies.
 3. **Limited Generalization:** Embeddings trained on specific datasets may not generalize well to unseen data, reducing their applicability across diverse tasks.
@@ -22,6 +24,9 @@ In this repository, the following models were employed to generate text and imag
 - **Universal Sentence Encoder (USE):** A model that provides general-purpose sentence embeddings for various tasks.
 
 ## Dimensionality Reduction Techniques
+
+<img src="https://github.com/AGAMPANDEYY/kge-clip-fork1/blob/main/1.Traditional_Vector_Embeddings/3.Embedding_Scores/assets/UmapPCATsne.png" width="600">
+
 Dimensionality reduction is employed to simplify high-dimensional embeddings, making them easier to visualize and interpret. The techniques used include:
 - **PCA (Principal Component Analysis):** A linear technique that reduces dimensionality by projecting data onto the axes of maximum variance.
 - **UMAP (Uniform Manifold Approximation and Projection):** A non-linear method that preserves the global structure of data, often leading to better clustering.
