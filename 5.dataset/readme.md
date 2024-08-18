@@ -16,6 +16,10 @@ For this project, we utilized a rich dataset to explore the creation of embeddin
 
    Subset Link-- https://www.kaggle.com/datasets/anantjain1223/coyo-1k-reduced
 
+### Dataset Preview 
+
+<img src= "https://github.com/AGAMPANDEYY/kge-clip-fork1/blob/main/media/COYO_Preview.png" width ="600">
+
 ### Purpose & Usage
 
 - **Purpose:**  
