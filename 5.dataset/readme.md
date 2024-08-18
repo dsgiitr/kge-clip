@@ -9,8 +9,12 @@ For this project, we utilized a rich dataset to explore the creation of embeddin
 1. **COYO-700M**  
    The COYO-700M dataset is a large-scale collection of text-image pairs, providing a diverse and extensive resource for our embedding tasks.
 
-2. **Subset of COYO-700M (1,000 {text:image} pairs)**  
+   Link-- https://github.com/kakaobrain/coyo-dataset 
+
+3. **Subset of COYO-700M (1,000 {text:image} pairs)**  
    We created a focused subset of 1,000 `{text: image}` pairs from the COYO-700M dataset, tailored to meet the specific needs of our project.
+
+   Subset Link-- https://www.kaggle.com/datasets/anantjain1223/coyo-1k-reduced
 
 ### Purpose & Usage
 
