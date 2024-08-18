@@ -17,7 +17,7 @@ After generating the embeddings, we applied dimensionality reduction techniques 
 
 Below is a screenshot of the dataset used for creating these embeddings:
 
-![Dataset Screenshot](path_to_your_screenshot)
+![Dataset Screenshot](https://github.com/AGAMPANDEYY/kge-clip-fork1/blob/main/media/dim_reduced_preview.png)
 
 ### 🔗 Kaggle Datasets for Embeddings and Reduced Embeddings
 
