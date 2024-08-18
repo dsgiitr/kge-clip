@@ -4,5 +4,5 @@
 
 | Sentence Encoder | URL |
 |------------------|-----|
-| Clip-image | [Clip-text Dataset](https://www.kaggle.com/datasets/anantjain1223/clip-text-coyo-1k) |
+| Clip-image | [Clip-image numpy Dataset](https://github.com/AGAMPANDEYY/kge-clip-fork1/blob/main/results/1.%20Traditional_VE/2.Image_embeddings/embedding_nparrays/image_embeddings_train1k.npy) |
 
