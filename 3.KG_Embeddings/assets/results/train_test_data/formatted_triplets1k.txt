@@ -1,0 +1,3000 @@
+table sawing	subclass of	machine
+table sawing machine	subclass of	white background
+table sawing machine	has part	white background
+recliner	subclass of	chair
+leather	subclass of	chair
+chair	different from	recliner
+sled	subclass of	dog team
+sled	subclass of	dog
+sled	used by	dog team
+police officer	employer	police
+'a pair of key chains with a police officer on them'	instance of	key chain
+police officer	field of this occupation	police
+computer rendering	part of	computer
+rendering	part of	computer
+computer rendering	depicts	house
+Grand Canyon	instance of	canyon
+canyon	has part	grand canyon
+Grand Canyon	located in the administrative territorial entity	Utah
+clock	part of	tower
+tower	has part	clock
+		
+sandwich	part of	plate
+sandwich	has part	plate
+sandwich	uses	plate
+jude the obscure	lyrics by	thomas hardy
+jude the obscure	composer	thomas hardy
+jude the obscure	performer	thomas hardy
+wheat	instance of	advertisement
+wheat	subclass of	advertisement
+shredded wheat	instance of	advertisement
+gold necklace	depicts	lion
+necklace	depicts	lion
+gold	use	necklace
+cupcake	part of	table
+cupcakes	part of	table
+		
+mountain bike	subclass of	bike
+mountain bike	instance of	bike
+mountain bike	depicts	white background
+cell phone	subclass of	photo
+cell phone	instance of	photo
+cell phone	use	photo of a cell phone
+bed	part of	bedroom
+white bed	part of	bedroom
+bed	part of	bed
+diamond syrup	has part	white
+diamond syrup	has part	red
+red diamond syrup	has part	white
+Yellow Taxi	subclass of	taxi
+yellow taxi	part of	street
+Yellow Taxi	product or material produced	yellow taxi
+lighthouse	subclass of	boat
+lighthouse	different from	boats are docked in the water next to a lighthouse
+lighthouse	located in or next to body of water	water
+city	has part	street
+city	has parts of the class	street
+		
+clock tower	part of	building
+clock tower	subclass of	building
+Clock tower	subclass of	clock
+		
+John F. Kennedy School of Government	part of	Harvard University
+		
+building	subclass of	photo
+photo	depicts	building
+old black and white photo	depicts	building
+snow covered slope	facet of	snowmobile
+snow covered slope	subclass of	snowmobile
+snowmobile	uses	snow covered slope
+pool table	uses	cue
+cue	part of	pool table
+		
+flower	has part	leaf
+flower	part of	leaf
+		
+blackboard	subclass of	table
+table	has part	blackboard
+blackboard	part of	table
+voice - activated systems	instance of	bar chart
+voice - activated systems	subclass of	bar chart
+voice - activated systems	subclass of	systems
+comforter	part of	bed
+		
+		
+drawer	part of	kitchen cabinet
+kitchen cabinet	has part	drawer
+		
+buildings	part of	campus
+campus	has parts of the class	buildings
+campus	has part	buildings
+'a screenshot of a woman with red hair'	instance of	screenshot
+screenshot of a woman with red hair	instance of	screenshot
+screenshot of a woman with red hair	depicts	red hair
+water heater	has part	hose
+hose	part of	water heater
+water heater	has part	hose attached to it
+flower	part of	pot
+'a lot of pumpkins and flowers in pots'	main subject	pumpkins
+flower	part of	pots
+flowers	used by	candles
+		
+table	part of	table
+skirt	has part	top
+skirt	subclass of	top
+		
+desk	subclass of	chair
+chair	subclass of	desk
+chair	different from	desk
+champion logo	depicts	blue
+champion logo	has part	blue
+logo on a blue background	subclass of	logo
+'a woman with blonde and pink hair posing for a picture'	instance of	picture
+Pink hair	has part	blonde
+'a woman with blonde and pink hair posing for a picture	instance of	picture
+muffin	part of	table
+muffin	subclass of	table
+muffin	part of	wooden table
+drawer	part of	table
+table	has part	drawer
+		
+suit	has part	tie
+tie	part of	suit
+		
+quilt	used by	women
+quilt	owned by	women
+quilt	used by	quilters
+man	spouse	woman
+		
+man	opposite of	woman
+butterfly applique	part of	dress
+applique	part of	dress
+butterfly applique	use	dress
+'a woman standing in front of a white background'	depicts	white background
+'a woman standing in front of a white background'	depicts	white
+White background	subclass of	background
+		
+desk	different from	chair
+chair	different from	desk
+sectional	subclass of	sofa
+sectional sofa	has part	recliners
+sectional sofa	has part	recliner
+Keep Calm and never give up	instance of	sign
+Never Give Up	instance of	sign
+Never give up	facet of	keep calm
+skull	part of	black jacket
+black jacket	depicts	skull
+skull	subclass of	black
+temperature	facet of	temperature
+temperature	different from	temperature
+temperature	subclass of	temperature
+'a christmas market in the middle of a town'	instance of	christmas market
+market	facet of	christmas
+market	part of	town
+chips	part of	sandwich
+sandwich	has part	chips
+chips	subclass of	sandwich
+salariess	subclass of	wage
+		
+wage	different from	salariess
+dock	subclass of	body of water
+dock	part of	body of water
+dock	subclass of	water
+pink	subclass of	handbag
+pink	subclass of	white
+pink	opposite of	white
+'a close up of a bracelet with a heart on it'	depicts	bracelet
+'a close up of a bracelet with a heart on it'	instance of	bracelet
+'a close up	depicts	bracelet
+'a little girl standing with her hands on her hips'	depicts	little girl standing with her hands on her hips
+'a little girl standing with her hands on her hips'	depicts	little girl
+'a little girl standing with her hands on her hips'	main subject	little girl standing with her hands on her hips
+furniture	part of	living room
+window	part of	living room
+living room	has parts of the class	furniture
+signing autographs	facet of	autograph
+autograph	subclass of	signing
+signing autographs	product or material produced	autograph
+ruby	subclass of	diamond
+diamond ring	has part	ruby
+antique ruby and diamond ring	subclass of	ring
+microphone	part of	podium
+podium	has part	microphone
+microphone	different from	podium
+trumpet	applies to jurisdiction	uniform
+'a black and white photo of a man in uniform playing a trumpet'	instance of	photo
+trumpet	subclass of	black and white
+lens	part of	camera
+camera	has part	lens
+		
+mannequin mannequin mannequin mannequin mannequin mannequin mannequin mann	depicts	mannequin mannequin mannequin mannequin mannequin mann
+mannequin mannequin mannequin mannequin mannequin mannequin mannequin mann	depicts	mannequin mannequin mannequin mannequin mannequin mannequin mann
+mannequin mannequin mannequin mannequin mannequin mannequin mannequin mannequin mann	depicts	mannequin mannequin mannequin mannequin mannequin mannequin mann
+suit	has part	tie
+tie	subclass of	suit
+		
+sprayer	part of	tractor
+sprayer	subclass of	tractor
+tractor	has part	sprayer
+cabinets	part of	kitchen
+appliances	part of	kitchen
+		
+signs	part of	street
+signs	subclass of	walking
+signs	part of	walking
+chain strap	part of	purse
+purse	has part	chain strap
+chain	part of	purse
+hose	has part	fitting
+		
+blue	opposite of	white
+courtroom	subclass of	group of people
+courtroom	subclass of	group
+courtroom	subclass of	group of people standing next to each other
+'a painting of a woman in a colorful dress'	instance of	painting
+painting of a woman in a colorful dress	depicts	colorful dress
+painting of a woman in a colorful dress	instance of	painting
+'a close up of a car with flames on it'	depicts	car
+car	has part	flames
+'a close up of a car with flames on it'	depicts	car with flames on it
+'a woman and a child smiling for a picture'	instance of	picture
+'a woman and a child smiling for a picture'	depicts	picture
+'a woman and a child smiling for a picture'	genre	picture
+'a painting of three white orchids with green leaves'	depicts	orchid
+painting of three white orchids with green leaves	depicts	orchid
+'a painting of three white orchid with green leaves'	depicts	orchid
+Yellow raft	subclass of	raft
+Yellow raft	instance of	raft
+raft	part of	body of water
+Blue glove	subclass of	glove
+'a person in blue gloves	depicts	reaching for something in a box
+'a person in blue gloves is reaching for something in a box'	main subject	blue gloves
+countertops	part of	kitchen
+counter tops	part of	kitchen
+cabinets	has part	countertops
+power filter	part of	aquarium
+power filterr	use	aquarium
+aquarium	has part	power filterr
+projector screen	part of	classroom
+red chair	part of	classroom
+projector	part of	classroom
+'a woman in a wedding dress standing in front of a wall'	depicts	wedding dress
+wedding dress	facet of	wedding
+wedding	uses	dress
+snow covered ground	has part	snow
+snow covered ground	subclass of	snow
+snow covered ground	facet of	snow
+bridge	crosses	train track
+		
+under a bridge	crosses	train track
+dress	subclass of	photo
+dress	instance of	photo
+dress	subclass of	black and white
+2019	point in time	2019
+2019 subaruna	point in time	2019
+'a black 2019 subaruna	point in time	2019
+helmet	has part	logo
+		
+helmet	manufacturer	pittsburgh steelers
+painting of a man holding a bird and flowers	depicts	bird
+'a painting of a man holding a bird and flowers'	instance of	painting
+painting	depicts	bird
+skull	part of	skull
+skull	part of	blue blanket
+skull	subclass of	knitted
+drinks	part of	table
+glasses	part of	table
+glass	use	drink
+website design	part of	website
+'a red and white restaurant website design'	instance of	website design
+website design	facet of	website
+old black and white photo	depicts	town
+photo	depicts	town
+old black and white photo	subclass of	photo
+ceiling fan	part of	bed room
+bed	part of	bed room
+bed room	has part	bed
+table	opposite of	floor
+		
+table	different from	floor
+car	has part	interior
+interior	part of	car
+		
+oven	subclass of	stove top
+oven	part of	kitchen
+stove top oven	part of	kitchen
+John F. Kennedy School of Government	part of	Harvard University
+Docked in the water	instance of	boat
+Docked in the water	instance of	boats
+passport	used by	person
+passport	owned by	person
+passport	subclass of	person
+table	part of	dinning room
+table	use	dinning room
+table and chairs	part of	dinning room
+toilet	part of	bathroom
+shower	part of	bathroom
+		
+green	has part	white
+white	has part	green
+green hat	has part	white background
+ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny	shares border with	ny ny ny ny ny ny ny ny ny ny ny ny
+ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny	shares border with	ny ny ny ny ny ny ny ny ny ny ny ny ny ny
+ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny ny	shares border with	ny ny ny ny ny ny ny ny ny ny ny ny ny ny
+stage	subclass of	group
+stage	part of	group
+stage	subclass of	group of people
+fire place	subclass of	patio
+fire place	part of	patio
+fire place	use	patio
+white pants	subclass of	dress
+pink dress	followed by	white pants
+dress	has part	pants
+wine	has part	bottle
+wine	uses	bottle
+wine	subclass of	bottle
+'a view of a village in the mountains'	depicts	mountain
+'a view of a village in the mountains'	depicts	village
+'a view of a village in the mountains'	depicts	village in the mountains
+'a couple of fake cows standing next to each other'	depicts	fake cows
+'a couple of fake cows standing next to each other'	depicts	fake cow
+'a couple of fake cows standing next to each other'	main subject	fake cows
+bed	part of	bedroom
+		
+window	part of	bedroom
+christmas lights	subclass of	decorations
+christmas lights and decorations	subclass of	decor
+christmas lights and decorations	part of	hallway
+wooden model	depicts	boat
+boat	subclass of	wooden
+model	depicts	boat
+		
+building under construction	practiced by	construction worker
+building	studied by	construction
+bra	subclass of	panties
+bra	part of	panties
+bra	different from	panties
+furniture	part of	living room
+fire place	part of	living room
+living room	has parts of the class	furniture
+'days inn by wyndham'	narrative location	wyndham
+'days inn by wyndham'	named after	wyndham
+'days inn by wyndham'	based on	days inn by wyndham
+surfboard	uses	wave
+		
+surfing	uses	surfboard
+drums	subclass of	people
+drums	instance of	group of people
+drums	subclass of	group of people
+skyscraper	subclass of	building
+street	has part	building
+street	has part	buildings
+furniture	part of	living room
+tv	uses	flat screen
+flat screen tv	subclass of	living room
+table	subclass of	machine
+table	part of	machine
+machine	uses	table
+table	has part	window
+table	opposite of	window
+window	opposite of	table
+dock	subclass of	catamaran
+dock	part of	catamaran
+dock	item operated	catamaran
+staircase	part of	living room
+furniture	part of	living room
+living room	has parts of the class	furniture
+'a bottle of courvoisir xo'	instance of	courvoisir
+'a bottle of courvoisir xo'	has part	courvoisir
+'a bottle of courvoisir xo'	named after	courvoisir
+group	part of	room
+group of people standing in a room	subclass of	room
+group of people standing in a room	part of	group of people standing in a room
+oven	subclass of	stove top
+stove top oven	part of	kitchen
+oven	part of	kitchen
+champagne	part of	table
+Champagne	subclass of	champagne
+'a bottle of champagne sitting on top of a table'	instance of	champagne
+microphone	used by	woman
+'a woman standing in front of a microphone'	uses	microphone
+microphone	part of	standing in front of a microphone
+'a bunch of balloons sitting on top of a table'	instance of	balloons
+'a bunch of balloons sitting on top of a table'	depicts	balloons
+'a bunch of balloons sitting on top of a table'	main subject	balloons
+typewriter	part of	table
+typewriter	uses	table
+typewriter	location	table
+zipper	part of	sweater
+zipper	part of	zipper
+sweater	has part	chest
+window	part of	building
+windows	part of	building
+		
+speech	uses	podium
+podium	use	speech
+speech	location	podium
+car charger	has part	cable
+cable	part of	car charger
+cable	connects with	car charger
+couch	opposite of	floor
+couch	different from	floor
+		
+figure	part of	pokemon
+figure on a white background	depicts	pokemon
+'a close up of a pokemon figure on a white background	depicts	pokemon figure
+bed	part of	bed room
+bed room	has part	bed
+flat screen tv	part of	bed room
+walls	part of	room
+white walls	part of	room
+white walls	subclass of	room
+remote control	part of	remote
+remote controls	has part	remote
+remote controls	has part	remote control
+pen tip	part of	pen
+		
+pen	has part	pen tip
+diamond	use	ring
+ring	has part	diamond
+		
+office chair	part of	floor
+chair	subclass of	office chair
+		
+pendant	part of	chain
+		
+glass	subclass of	pendant
+ring	has part	stone
+		
+silver ring	has part	stone
+'a bunch of rings sitting on top of a table'	instance of	rings
+'a bunch of rings sitting on top of a table'	instance of	ring
+'a bunch of rings sitting on top of a table'	depicts	ring
+'the sun is setting over a body of water'	main subject	sun is setting over a body of water
+'the sun is setting over a body of water'	depicts	sun
+the sun is setting over a body of water	depicts	body of water
+motorcycle	has part	silver
+motorcycle	has part	white
+motorcycle	different from	motorcycle
+'a man holding a dog in front of a cabin'	depicts	dog
+'a man holding a dog in front of a cabin'	depicts	'a man holding a dog in front of a cabin'
+'a man holding a dog in front of a cabin'	depicts	a dog
+'a woman wearing a black and white dress'	depicts	dress
+'a woman wearing a black and white dress'	instance of	dress
+dress	depicts	woman
+a picture of a picture of a picture of a picture of a picture of a picture of a picture of a picture of a picture of a picture	followed by	a picture of a picture of a picture of a picture of a picture of a picture
+a picture of a picture of a picture of a picture of a picture of a picture of a picture of a picture of a picture of a picture of a picture	depicts	a picture of a picture of a picture of a picture of a picture of a picture
+a picture of a picture of a picture of a picture of a picture of a picture of a picture of a picture of a picture of a picture of a picture	followed by	a picture of a picture of a picture of a picture of a picture of a picture
+		
+'a young boy laying in the grass with his hands on his face'	depicts	grass
+'a young boy laying in the grass with his hands on his face'	depicts	'a young boy laying in the grass with his hands on his face'
+icing	part of	cake
+cake	has part	icing
+icing	facet of	cake
+skylight	part of	staircase
+spiral staircase	has part	skylight
+skylight	part of	home
+fender	product or material produced	guitar amplifier
+fender	product or material produced	amplifier
+guitar amplifier	manufacturer	fender
+'a black and white photo of a tree'	instance of	photo
+photo of a tree	depicts	tree
+photo of a tree	instance of	photo
+dashboard	part of	car
+car dashboard	has part	clock
+		
+cactus	subclass of	cactus
+cactus	parent taxon	llama
+cactus	has part	llama
+black briefcase	has part	white background
+black	opposite of	white
+black briefcase	subclass of	white background
+'a woman sitting on a couch	uses	microphone
+'a woman sitting on a couch holding a microphone'	depicts	couch
+microphone	part of	couch
+floor	part of	room
+		
+sitting on the floor	part of	room
+stockings	different from	high heels
+high heels	has part	stockings
+		
+comforter	part of	bed
+		
+		
+buttons	part of	dress
+button	part of	dress
+buttons	part of	mannequin
+wine	part of	table
+		
+Two glasses of wine	instance of	wine
+suit	has part	tie
+tie	part of	suit
+		
+'a couple of people standing in a room'	followed by	'a couple of people standing in a room'
+'a couple of people standing in a room'	depicts	couple of people standing in a room
+'a couple of people standing in a room'	depicts	a room
+runway	part of	airport
+airport runway	use	taking off
+airport runway	use	jet taking off
+canned food	subclass of	items
+canned food	subclass of	item
+canned food	subclass of	food
+furniture	part of	living room
+tv	uses	flat screen
+flat screen tv	subclass of	living room
+gym mat	has part	kettlebell
+kettlebell	part of	gym mat
+kettlebell	uses	gym mat
+table	subclass of	chairs
+table	has parts of the class	chairs
+table	has part	chairs
+couch	subclass of	ottoman
+couch	has part	ottoman
+couch	different from	ottoman
+wooden toys	use	child's playroom
+wooden toys	part of	child's playroom
+wooden toys	subclass of	playroom
+fiber module	has part	fiber
+fiber module	uses	fiber
+fiber	part of	module
+'a couple of hoses sitting next to each other'	followed by	'a couple of hoses sitting next to each other'
+'a couple of hoses sitting next to each other'	part of	'a couple of hoses sitting next to each other'
+'a couple of hoses sitting next to each other'	instance of	hoses
+chair	part of	chair
+chair	subclass of	chair
+'a cartoon of a man sitting on top of a chair'	genre	cartoon
+bed room	has part	bed
+		
+bed	part of	bed room
+earrings	part of	hand
+earring	part of	hand
+		
+roofing	has part	sheets
+roofing sheets	part of	shelf
+roofing	uses	sheets
+waterfall	part of	forest
+waterfall	location	forest
+forest	has part	waterfall
+comforter	part of	bed
+		
+		
+'a black and white photo of a harbor'	depicts	harbor
+harbor	subclass of	black and white photo
+harbor	subclass of	black and white
+soccer	subclass of	game
+soccer	instance of	game
+soccer	subclass of	game of soccer
+beer	has part	glass
+beer	has part	glasses
+beer	uses	glass
+Holiday Inn	subclass of	hotel
+hotel and suites	subclass of	hotel
+hotel and suites	subclass of	inn
+red shirt	has part	black skirt
+Red shirt	has part	black skirt
+Red shirt	has part	skirt
+hiking boots	has part	white
+hiking boots	use	hiking
+hiking boot	has part	white
+sports car	location	dirt lot
+blue sports car	location	dirt lot
+'a blue sports car	location	dirt lot
+'a man standing in front of a red barn'	depicts	red barn
+'a man standing in front of a red barn'	main subject	red barn
+		
+seattle	instance of	city
+an aerial view of the city of seattle	depicts	seattle
+city of seattle	located in the administrative territorial entity	seattle
+tent	has part	white
+tent	depicts	white
+'an image of a tent on a white background'	depicts	tent
+'a sign that says home is where my plants are'	instance of	sign
+'A sign that says home is where my plants are'	instance of	sign
+'a sign that says home is where my plants are'	is a list of	sign
+'a man in a pink shirt and blue pants'	depicts	pink
+Pink shirt	followed by	blue pants
+'a man in a pink shirt and blue pants'	depicts	blue pants
+two women looking at shoes in a store	depicts	store
+shoes	part of	store
+two women looking at shoes	depicts	store
+American flag	applies to jurisdiction	american
+flag	applies to jurisdiction	american
+american flag	depicts	street
+motorcycle	has part	white
+motorcycle	color	white
+motorcycle	has part	white background
+building	depicts	children
+building	occupant	children
+building	has part	children
+herd	has part	deer
+field	has part	grass
+field	subclass of	grass
+'a woman in a long white dress'	depicts	dress
+'a woman in a long white dress'	depicts	white dress
+a woman in a long white dress	depicts	white dress
+		
+		
+'a boy and a girl talking to each other'	characters	boy
+kitchen	has part	cupboard
+kitchen	has part	cupboards
+kitchen	has parts of the class	cupboards
+'a close up of a bracelet on a pile of rocks'	depicts	bracelet
+'a close up of a bracelet on a pile of rocks'	instance of	bracelet
+'a close up	depicts	bracelet
+'two people setting up a tent near a lake'	instance of	tent
+'two people setting up a tent near a lake'	main subject	two people setting up a tent near a lake
+'two people setting up a tent near a lake'	location	lake
+pink outfit	has part	purse
+Pink	instance of	outfit
+pink outfit	uses	purse
+frosting	part of	cupcakes
+frosting	part of	cupcake
+cupcake	has part	frosting
+table	subclass of	machine
+table	part of	machine
+machine	uses	table
+		
+kissing in a room	participant	man
+kissing in a room	depicts	man and a woman
+high chair	used by	baby
+high chair	use	baby
+high chair	use	baby sitting in a high chair playing with a toy
+inflatable frog	part of	pool
+'a green inflatable frog floating in a pool'	instance of	inflatable frog
+green inflatable frog	location	pool
+'two jeeps are parked on a rocky hill'	depicts	Jeep
+'two jeeps are parked on a rocky hill'	main subject	Jeep
+'two jeeps are parked on a rocky hill'	followed by	'two jeeps are parked on a rocky hill'
+jeans	has part	hanger
+jeans on a hanger	product or material produced	jeans
+'a pair of jeans on a hanger'	depicts	jeans
+'a smiling woman holding a bag of food'	main subject	food
+'a smiling woman holding a bag of food'	depicts	food
+'a smiling woman holding a bag of food'	depicts	a smiling woman holding a bag of food
+clothes	part of	closet
+clothes	part of	walk - in closet
+closet	has part	clothes
+guitar	used by	black couch
+guitar	uses	black couch
+guitar	part of	black couch
+latches	part of	case
+case	has part	latches
+		
+flag	applies to jurisdiction	mexican
+mexican flag	depicts	white
+flag on a white background	applies to jurisdiction	mexican
+'a close up of a mannequin wearing a red hat'	depicts	mannequin wearing a red hat
+'a close up of a mannequin wearing a red hat'	depicts	mannequin
+'a close up of a mannequin wearing a red hat'	depicts	red hat
+glass walls	part of	office
+Glass walls	subclass of	office
+glass walls	subclass of	office
+'a young girl in a black dress posing for the camera'	depicts	black dress
+'a young girl in a black dress	genre	posing for the camera
+'a young girl in a black dress posing for the camera'	depicts	posing for the camera
+toilet bag	has part	white
+black toilet bag	has part	white
+		
+white shirt	followed by	black pants
+white shirt	has part	black pants
+white shirt	has part	pants
+battleship	used by	sailors
+battleship	operator	sailors
+battleship	used by	sailor
+group	has part	people
+group of people standing next to each other	subclass of	group
+group of people standing next to each other	instance of	group
+spraying water	used by	firefighter
+spraying water on a house	used by	firefighter
+spraying water on a house	participant	firefighter
+bed	part of	hotel room
+ottoman	subclass of	chair
+		
+spokes	part of	wheel
+		
+motorcycle wheel	has parts of the class	spokes
+bookshelf	part of	room
+		
+ladder	opposite of	bookshelf
+usb	subclass of	drive
+usb drive	has part	white surface
+USB	used by	usb drive
+'a black and white photo of a man wearing a hat'	instance of	photo
+'a black and white photo of a man wearing a hat	instance of	photo
+Hat	instance of	photo
+chair	part of	living room
+window curtain	part of	living room
+living room	has part	window curtain
+label	part of	jar
+jar	has part	label
+glass jar	has part	label
+cake	part of	table
+cake	part of	wooden table
+cake	uses	table
+showroom	product or material produced	motorcycle
+motorcycle	part of	showroom
+'a motorcycle is parked in a showroom'	facet of	motorcycle
+egg	part of	basket
+		
+eggs	part of	basket
+three power invertors	depicts	white background
+three power invertors on a white background	depicts	power invertors
+three power invertors on a white background	depicts	white background
+'a woman in a white shirt and a green helmet'	depicts	white shirt
+'a woman in a white shirt and a green helmet'	depicts	women in a white shirt and a green helmet
+'a woman in a white shirt and a green helmet'	depicts	white
+wine	uses	bottles
+wine	has part	bottles
+wine	subclass of	bottles
+classic car	location	parking lot
+classic car	subclass of	parking lot
+classic car	use	parking lot
+		
+provincess	located in the administrative territorial entity	canada
+		
+sink	part of	kitchen
+kitchen	has part	sink
+		
+knife	has part	wood
+knife	uses	wood
+knife	subclass of	wood
+'a woman is holding a fluffy cat on her lap'	depicts	cat
+'a woman is holding a fluffy cat on her lap'	main subject	cat
+		
+John F. Kennedy School of Government	part of	Harvard University
+		
+		
+cross	part of	building
+cross	subclass of	building
+cross	instance of	building
+bars	subclass of	restaurants
+bar	subclass of	restaurant
+restaurant	different from	bars
+'two people standing on a hill with a fire in the background'	depicts	two people standing on a hill with a fire in the background
+'two people standing on a hill with a fire in the background'	depicts	hill
+'two people standing on a hill with a fire in the background'	depicts	fire
+crib	part of	baby's room
+crib	use	baby's room
+crib	used by	baby
+quilt	location	table
+'a close up of a quilt on a table'	depicts	quilt
+quilt	part of	table
+'a woman in a pink and white dress and a woman in a pink and white dress'	depicts	dress
+'a woman in a pink and white dress and a woman in a pink and white dress'	depicts	'a woman in a pink and white dress and a woman in a pink and white dress'
+		
+rope	has part	white
+'a close up of a rope on a white surface'	depicts	rope
+'a close up of a rope	depicts	rope
+motorcycle	has part	white
+motorcycle	color	white
+motorcycle	different from	motorcycle
+cube ottoman	subclass of	ottoman
+cube ottoman	instance of	ottoman
+cube ottoman	subclass of	cube
+sprock sprock sprock sprock sprock sprock sprock sprock sprock sprock sprock sprock sprock sprock sprock sprock sp	has part	sprock sprock sprock sprock sprock sprock sprock sprock sprock sprock sprock sp'
+sprock sprock sprock sprock sprock sprock sprock sprock sprock sprock sprock sprock sprock sprock sprock sprock sp	has part	sprock sprock sprock sprock sprock sprock sprock sprock sprock sprock sprock sprock sp'
+sprock sprock sprock sprock sprock sprock sprock sprock sprock sprock sprock sprock sprock sprock sprock sprock sp	part of	sprock sprock sprock sprock sprock sprock sprock sprock sprock sprock sprock sprock sp'
+'a screenshot of a person standing on a set of stairs'	instance of	screenshot
+screenshot	subclass of	screenshot
+[a screenshot of a person standing on a set of stairs	instance of	screenshot
+toilet	opposite of	sink
+toilet	different from	sink
+		
+pump	has part	hose
+hose	part of	pump
+hose	connects with	pump
+metal	subclass of	object
+metal object	has part	white
+metal object	has part	white background
+cheese ball	has part	crackers
+crackers	has part	cheese
+crackers	part of	cheese ball
+construction	product or material produced	building
+building under construction	subclass of	construction
+building under construction	facet of	construction
+couch	part of	living room
+		
+living room	has part	couch
+bunk bed	subclass of	bedroom
+bunk bed	part of	bedroom
+bed	part of	bedroom
+furniture	part of	living room
+fire place	part of	living room
+living room	has parts of the class	furniture
+bed	part of	bedroom
+bed	part of	bed
+bed	use	bedroom
+city	located in or next to body of water	water
+city	subclass of	body of water
+city	instance of	body of water
+refugee	subclass of	human beings
+refugees	subclass of	human beings
+refugees are human beings	instance of	sign
+glass roof	part of	conservatory
+glass	part of	roof
+conservatory	has part	roof
+bow tie	part of	table
+'a man in a bow tie sitting at a table'	depicts	bow tie
+bow tie	used by	man
+guitar	used by	guitar
+guitar	use	playing a guitar
+guitar	location	dock
+drawers	part of	box
+box	has part	drawers
+		
+adidas	product or material produced	running shoe
+adidas	product or material produced	shoe
+Adidas	product or material produced	running shoe
+boss	product or material produced	cologne
+boss bottled	product or material produced	cologne
+		
+pillows	part of	couch
+couch	has part	pillows
+pillow	part of	couch
+'three glass jellys sitting on top of a table'	depicts	jellys
+'three glass jellys sitting on top of a table'	instance of	jellys
+'three glass jellys sitting on top of a table'	main subject	jellys
+three pieces of jewelry on a white surface	facet of	white
+three pieces of jewelry on a white surface	subclass of	jewelry
+three pieces of jewelry on a white surface	facet of	white surface
+international space station	continent	earth
+international space station	location	earth
+space station	part of	earth
+two female cricket players walking on a field	sport	cricket
+		
+walking on a field	sport	cricket
+campus surrounded by trees	subclass of	aerial view
+campus surrounded by trees	instance of	aerial view
+campus surrounded by trees	instance of	aerial
+beer	has part	cans
+beer	different from	cans
+beer	has part	cans of beer
+fishnet	subclass of	stockings
+tights	subclass of	stockings
+fishnet	subclass of	tights
+picture inside of it	subclass of	jar
+'a glass jar with a picture inside of it'	instance of	jar
+'a glass jar with a picture inside of it'	subclass of	jar
+'a woman wearing a black and gold dress'	instance of	dress
+'a woman wearing a black and gold dress'	depicts	dress
+'a woman wearing a black and gold dress	instance of	dress
+'a girl in a maroon shirt	instrument	clarinet
+'a girl in a maroon shirt playing a clarinet'	instrument	clarinet
+girl in a maroon shirt	instrument	clarinet
+bridesmaid dress	subclass of	dress
+dress	used by	bridesmaid
+bridesmaid dress	use	bridesmaid
+statue	depicts	dog
+statue of a dog	depicts	dog
+statue of a dog with a butterfly on it's wing	depicts	dog
+the experis manpower group logo	instance of	logo
+'the experis manpower group logo'	instance of	logo
+the experis manpower group	instance of	logo
+'a group of men standing on top of a boat'	depicts	boat
+John F. Kennedy School of Government	part of	Harvard University
+'a group of men standing on top of a boat'	main subject	boat
+cleaning products	part of	store
+cleaning product	use	cleaning
+cleaning products	subclass of	store
+John F. Kennedy School of Government	part of	Harvard University
+'a bunch of boats that are sitting in the water'	instance of	film
+John F. Kennedy	position held	Secretary of Defense
+white shirt	has part	pants
+white shirt	followed by	pants
+white shirt	subclass of	pants
+'a group of people standing around a turkey'	depicts	turkey
+'a group of people standing around a turkey'	main subject	turkey
+Turkey	named after	turkey
+usb cable	connects with	cell phone
+usb	connects with	cell phone
+cell phone	connects with	usb cable
+skull	part of	ring
+skull	use	ring
+'a close up of a ring with a skull on it'	depicts	ring
+artist's rendering	depicts	building
+street	located in the administrative territorial entity	city
+street	different from	building
+graph	depicts	number of people
+		
+graph	depicts	number of people in the city
+crackers	subclass of	bowl
+cracker	subclass of	bowl
+crackers	part of	bowl
+cutting a ribbon	location	room
+cutting a ribbon	part of	room
+Cutting a ribbon	location	room
+grass	subclass of	house
+grass	part of	house
+house that is in the grass	named after	grass
+mountain range	subclass of	photo
+'a black and white photo of a mountain range'	instance of	photo
+'a black and white photo of a mountain range'	depicts	mountain range
+clock tower	part of	building
+clock tower	subclass of	building
+clock tower	subclass of	stone building
+table	part of	patio
+patio	part of	house
+patio	has parts of the class	table
+crib	used by	baby
+crib	part of	baby
+white	opposite of	black
+chewy treat	subclass of	chewy
+chewy	subclass of	treat
+chewy treats	subclass of	chewy
+tarmac	part of	airport
+airport	has part	tarmac
+jetliner	location	airport
+barrel	use	beer
+barrel	part of	beer
+barrel	facet of	beer
+guitar	use	playing
+guitars	subclass of	group of people
+guitars	part of	group of people
+toilet	part of	bathroom
+sink	part of	toilet
+bathroom	has part	toilet
+sunglasses	part of	table
+sunglasses	location	table
+'a pair of sunglasses sitting on top of a table'	instance of	sunglasses
+couch	part of	living room
+living room	has part	window
+living room	has part	couch
+'a painting of a man in a black hat'	instance of	painting
+painting of a man in a black hat	depicts	black hat
+painting of a man in a black hat	depicts	a man in a black hat
+tubes	has part	plastic
+clear plastic tubes	has part	blue
+blue	facet of	blue
+'a woman in a white lingerie posing for a picture'	main subject	lingerie
+'a woman in a white lingerie posing for a picture'	depicts	lingerie
+'a woman in a white lingerie posing for a picture'	instance of	picture
+bed	part of	bedroom
+		
+bed	part of	bed
+tie	has part	checkered
+checkered	subclass of	tie
+checkered tie	has part	checkered
+living room	subclass of	group of people
+living room	subclass of	group
+living room	subclass of	group of people sitting around a living room
+'a black and white photo of a man standing next to a car'	instance of	photo
+photo of a man standing next to a car	instance of	photo
+'a black and white photo	instance of	photo
+'a close up of a bunch of flowers on a table'	instance of	picture
+'a close up of a bunch of flowers on a table'	depicts	flower
+'a close up of a bunch of flowers on a table'	depicts	flowers
+button	subclass of	close up
+button	subclass of	camera
+button	use	close up
+bed	part of	bed room
+bed room	has part	bed
+flat screen tv	part of	bed room
+Monster Face	instance of	poster
+'a poster for a concert with a monster face on it'	depicts	monster face
+'a poster for a concert with a monster face on it'	instance of	poster
+'a woman standing in front of a brick wall'	depicts	brick wall
+'a woman standing in front of a brick wall'	depicts	'a woman standing in front of a brick wall'
+'a woman standing in front of a brick wall'	depicts	a brick wall
+couch	part of	living room
+living room	has part	couch
+living room	has parts of the class	couch
+tower	part of	street
+tower	different from	street
+Tower of the Americas	located in the administrative territorial entity	Mexico City
+flower	part of	bird
+flowers	part of	birds
+flowers	used by	birds
+motherboard	part of	computer
+		
+		
+reviews	part of	website
+review	part of	website
+reviews	facet of	website
+bmw	subclass of	suv
+Bmw	manufacturer	bmw
+'a black bmw suv	manufacturer	bmw
+plates	subclass of	silverware
+silverware	has part	plates
+plates	different from	silverware
+bunk bed	part of	bedroom
+bunk bed	subclass of	bedroom
+bed	part of	bedroom
+statue	depicts	police officer
+police officer	depicts	statue
+police officer	has part	statue
+metal	subclass of	object
+metal object	has part	white
+metal object	has part	white background
+Bottle	subclass of	bottles
+Bottle	part of	bottles
+Bottles	subclass of	bottles
+skull	part of	dinosaur
+skull mounted on a brick wall	depicts	dinosaur
+dinosaur skull	part of	brick wall
+gold chain	part of	hand
+'a hand holding a small purple elephant	instance of	gold chain
+'a hand holding a small purple elephant on a gold chain'	depicts	elephant
+chocolate	has part	egg
+egg	has part	chocolate
+chocolate	has part	eggs
+leather	use	strap
+leather	part of	strap
+strap	subclass of	leather
+protest	uses	signs
+signs	part of	protest
+signs	facet of	protest
+metal handle	part of	faucet
+faucet	has part	handle
+kitchen faucet	has part	handle
+gym	use	working out
+working out in a gym	subclass of	working out
+working out in a gym	facet of	gym
+furniture	part of	living room
+living room	has parts of the class	furniture
+living room	has part	furniture
+'a row of white vans	instance of	parking lot
+'a row of white vans	subclass of	parking lot
+White van	subclass of	van
+bed	part of	bedroom
+bed	use	bedroom
+window	part of	bedroom
+comic page	part of	comic
+page	part of	comic
+comic	has part	page
+'a man sitting on top of a chair	depicts	green curtain
+'a man sitting on top of a chair	depicts	curtain
+'a man sitting on top of a chair in front of a green curtain'	depicts	chair
+'a couple of clamps sitting next to each other'	instance of	clamps
+Clamps	product or material produced	clamps
+'a couple of clamps sitting next to each other'	product or material produced	clamps
+'a vase of pink roses sitting on a table'	instance of	vase
+'a vase of pink roses sitting on a table'	depicts	pink roses
+'a vase of pink roses sitting on a table'	depicts	rose
+bed	part of	hotel room
+		
+bed	part of	hotel
+tofu	has part	black bean
+tofu	has part	black beans
+black bean	has part	tofu
+long hair	part of	white top
+long hair	part of	white
+top	has part	white
+furniture	part of	living room
+tv	uses	flat screen
+flat screen tv	subclass of	living room
+'a close up of a bracelet on a white background'	depicts	bracelet
+'a close up of a bracelet	depicts	bracelet
+'a close up	depicts	bracelet
+lasagna lasagna lasagna	has part	lasagna lasagna lasagna
+lasagna lasagna lasagna lasagna	has part	lasagna lasagna lasagna
+lasagna lasagna lasagna	has part	lasagna
+table	uses	food
+table	has part	bowl
+table	use	food
+flower	part of	potted plant
+potted plant	subclass of	crocheted
+crocheted	product or material produced	potted plant
+kimono	use	colorful
+kimono	subclass of	colorful
+colorful kimono	subclass of	kimono
+kubera	subclass of	cave
+kubera	instance of	cave
+'a map of the kubera cave area'	depicts	kubera
+'a black and white photo of a man sitting on a couch'	instance of	photo
+'a black and white photo	depicts	couch
+'a black and white photo of a man sitting on a couch'	depicts	a man sitting on a couch
+rollo	subclass of	hanging bag
+hanging bag	subclass of	rollo
+rolling bag	subclass of	hanging bag
+'a woman holding a baby in her arms'	depicts	baby
+'a woman holding a baby in her arms'	depicts	woman holding a baby in her arms
+'a woman holding a baby in her arms'	depicts	baby in her arms
+camera lens	part of	white background
+camera	has part	lens
+camera lens	has part	white background
+furniture	part of	living room
+fire place	part of	living room
+living room	has parts of the class	furniture
+'a pair of pink and black sandals'	instance of	sandals
+Pink and Black	instance of	sandals
+'a pair of pink and black sandals'	subclass of	sandals
+John F. Kennedy School of Government	part of	Harvard University
+Camp David	owned by	United Nations
+John F. Kennedy	position held	Secretary of State
+clock tower	part of	castle
+castle	has part	clock tower
+		
+white dress	part of	red carpet
+red carpet	part of	red carpet
+red carpet	subclass of	white dress
+saddle covers	part of	saddle
+saddle	has part	covers
+saddle cover	part of	saddle
+map	part of	building
+map	subclass of	building
+Map	subclass of	map
+'the rv ribble valley business awards logo'	instance of	logo
+'the rv ribble valley business awards logo'	facet of	rv ribble valley business awards
+'the rv ribble valley business awards logo'	location	ribble valley
+old map of the united states	country	united states
+old map of the united states	depicts	united states
+an old map of the united states	depicts	united states
+'a woman and a child are painting a bus'	depicts	bus
+'a woman and a child are painting a bus'	depicts	painting a bus
+		
+scissors	part of	case
+scissors	use	case
+case	has part	scissors
+'a birthday card with a butterfly on it'	depicts	butterfly
+'a birthday card with a butterfly on it'	instance of	birthday card
+butterfly	use	birthday card
+street	located in the administrative territorial entity	city
+street	part of	city
+black and white	subclass of	photo
+'a man and a woman standing on a red carpet'	main subject	red carpet
+'a man and a woman standing on a red carpet'	depicts	red carpet
+'a man and a woman standing on a red carpet'	genre	red carpet
+plate	part of	table
+salad	subclass of	plate
+salad	part of	plate
+'a doll sitting on top of a white plate'	depicts	doll
+'a doll sitting on top of a white plate'	instance of	doll
+doll	uses	white plate
+red	has part	black
+red earrings	has part	black
+'a pair of red earrings on a black background'	instance of	earrings
+bed	part of	bedroom
+bed	part of	bed
+		
+wedding ring	has part	feather
+wedding ring	uses	feather
+		
+motorcycle	has part	front
+front	part of	motorcycle
+motorcycle	has part	front of a motorcycle
+cell phone	part of	hand
+cell phone	subclass of	hand
+cell phone	use	hand
+machine	has part	white
+machine	has part	surface
+machine	uses	white surface
+furniture	part of	living room
+fire place	part of	living room
+living room	has parts of the class	furniture
+bitcoin futures	based on	bitcoins
+bitcoin futures	based on	bitcoin
+bitcoin futures	facet of	bitcoins
+shelves	part of	storage cabinet
+shelves	subclass of	storage cabinet
+storage cabinet	has part	shelves
+suit	instance of	photo
+suit	subclass of	black and white
+'a black and white photo of a man in a suit'	instance of	photo
+Red Couch	instance of	couch
+red couch	part of	brick wall
+red couch	opposite of	brick wall
+headset	has part	headphones
+virtual reality headset	has part	headphones
+headset	connects with	headphones
+car	has part	white
+silver car	has part	white
+silver	has part	white
+boat	uses	water
+boat	crosses	large body of water
+		
+cell phone	has part	pole
+'a close up of a cell phone on a pole'	depicts	cell phone
+		
+child in her arms	depicts	woman
+child	mother	woman
+mother	child	father
+necklace	owned by	woman
+necklace	part of	necklace
+'a woman with long brown hair	instance of	necklace
+furniture	part of	living room
+wooden floor	part of	living room
+living room	has parts of the class	furniture
+two men shaking hands in front of flags	depicts	two men shaking hands in front of flags
+two men shaking hands in front of flags	depicts	flags
+'two men shaking hands in front of flags'	depicts	two men shaking hands in front of flags
+'a christmas tree with a heart on top of it'	instance of	christmas tree
+'a christmas tree with a heart on top of it'	depicts	christmas tree
+'a christmas tree with a heart on top of it'	genre	christmas tree
+black dress	has part	heels
+dress	has part	heels
+heels	subclass of	dress
+leather pants	has part	blouse
+pants	has part	blouse
+black blouse	has part	leather pants
+blender	part of	counter
+black blender	part of	counter
+black blender	instance of	counter
+metal	subclass of	object
+metal object	has part	white
+metal object	has part	white background
+'three pieces of soap sitting on top of each other'	main subject	soap
+'three pieces of soap sitting on top of each other'	has part	soap
+'three pieces of soap sitting on top of each other'	instance of	soap
+covidid case	instance of	line graph
+covidid case	subclass of	line graph
+covidid	instance of	line graph
+table	subclass of	machine
+table	part of	machine
+machine	uses	table
+chair	different from	table
+wooden floor	subclass of	chair
+chair	part of	wooden floor
+window	depicts	women
+Window	subclass of	window
+window	subclass of	window
+green arrow	part of	green line graph
+green line graph	has part	green arrow
+green arrow	part of	line graph
+sword	used by	blue shirt
+sword	uses	blue shirt
+'a man in a blue shirt holding a sword'	depicts	blue shirt
+military uniform	subclass of	man
+military uniform	has part	man
+military uniform	depicts	man
+wooden table	subclass of	table
+wooden table	subclass of	group of people
+wooden table	part of	group of people sitting around a wooden table
+business segments	instance of	bar chart
+segments	part of	business
+business segments	subclass of	bar chart
+'two women standing next to each other in front of a fence'	depicts	two women standing next to each other in front of a fence
+two women standing next to each other in front of a fence	depicts	fence
+two women standing next to each other in front of a fence	depicts	two women standing next to each other in front of a fence
+caramel	part of	cupcakes
+cupcake	has part	caramel
+caramel	subclass of	cupcakes
+vase	part of	table
+flower	part of	vase
+table	has part	vase
+'a woman in a green bodysuit posing for a picture'	depicts	bodysuit
+'a woman in a green bodysuit posing for a picture'	instance of	picture
+'a woman in a green bodysuit posing for a picture	depicts	bodysuit
+gun	used by	zombie
+gun in a room	depicts	zombie
+gun	part of	gun
+library	has part	bookshelf
+bookshelf	part of	library
+		
+piece	part of	puzzle
+puzzle	uses	piece
+puzzle	has part	piece
+river	named after	river
+river	part of	field
+		
+cover	part of	magazine
+painting of a house	depicts	house
+cover of a magazine	field of work	painting
+revolver	location	table
+revolver	part of	table
+revolver	uses	table
+shorts	part of	shorts
+'a close up of a pair of shorts'	depicts	shorts
+shorts	subclass of	shorts
+'a drawing of a woman sitting on a chair'	instance of	drawing
+drawing of a woman sitting on a chair	instance of	drawing
+painting	subclass of	drawing
+computer rendering	part of	computer
+rendering	part of	computer
+computer rendering	depicts	house
+'two amps sitting next to each other on a gray surface'	instance of	amp
+'two amps sitting next to each other on a gray surface'	instance of	amps
+'two amps sitting next to each other on a gray surface'	facet of	amp
+sony	product or material produced	mirrorless camera
+mirrorless camera	has part	lens
+sony	subclass of	mirrorless camera
+auto stop	subclass of	safety razor
+auto stop	subclass of	razor
+auto stop	instance of	safety razor
+book cover	depicts	ringed castle
+ringed castle	instance of	book cover
+book cover of the ringed castle	depicts	ringed castle
+accessories	part of	camera
+camera	has part	accessories
+		
+park	located in or next to body of water	river
+park	located in or next to body of water	river running through it
+park	named after	river running through it
+'a close up of a spider on a wooden surface'	depicts	spider
+wooden	subclass of	surface
+'a close up of a spider	depicts	spider
+bamboo	part of	forest
+bamboo tree	part of	forest
+bamboo	subclass of	forest
+map of africa with red and green areas	instance of	map
+map of africa	depicts	africa
+map of africa with red and green areas	instance of	map of africa
+counter	uses	gps
+counter	has part	gps
+gps	part of	counter
+motorcycle	has part	white
+motorcycle	has part	red
+motorcycle	different from	motorcycle
+table	has parts of the class	chairs
+table	has part	chairs
+table	has parts of the class	chair
+jars	subclass of	shelf
+jars	part of	shelf
+wooden	subclass of	shelf
+		
+video switcher	uses	white background
+video switcher	has part	white background
+rings	subclass of	jewelry
+		
+ring	subclass of	jewelry
+table	has part	purses
+table	subclass of	purses
+table	has parts of the class	purses
+bed	part of	bedroom
+		
+bed	part of	bed
+cupcake	subclass of	cookie
+cupcake	subclass of	cookies
+cupcakes	subclass of	cookies
+cartoon	subclass of	picture
+picture of two people in a room	subclass of	cartoon
+cartoon picture	subclass of	cartoon
+'a man and a woman sitting next to each other'	depicts	couple
+Man	spouse	Woman
+'a man and a woman sitting next to each other'	depicts	pair
+space ship	part of	sky
+space ship in the sky	instance of	image
+'an image of a space ship in the sky'	depicts	space ship
+airplane	part of	airplane
+airplane	different from	airplane
+airplane	depicts	men standing on top of an airplane
+skateboard	uses	red
+skateboard	has part	red
+skateboarding	uses	red
+lure	has part	hook
+hook	subclass of	lure
+lure	part of	hook
+'a plane with the words a travel ban cx story'	main subject	travel ban
+a travel ban	instance of	travel ban
+travel ban	author	Trump
+wedding dress	depicts	woman
+'a woman in a wedding dress standing in a room'	depicts	wedding dress
+wedding	uses	dress
+three dresses on mannequins in front of a window	depicts	window
+three dresses on mannequins	depicts	window
+'three dresses on mannequins in front of a window'	depicts	window
+bed	part of	bedroom
+bed	part of	bed
+four poster bed	part of	bedroom
+bank notes	country	country
+bank note	country	country
+bank note	applies to jurisdiction	country
+stage	subclass of	group
+stage	part of	group
+stage	subclass of	group of people
+'a close up of a vase on a table'	depicts	vase
+vase	part of	table
+		
+mannequin mannequin mannequin mannequin mannequin mannequin mannequin	has parts of the class	mannequin mannequin mannequin mannequin
+mannequin mannequin mannequin mannequin mannequin mannequin mannequin	named after	mannequin mannequin mannequin mannequin
+mannequin mannequin mannequin mannequin mannequin mannequin mannequin mannequin	named after	mannequin mannequin mannequin mannequin
+wall	part of	living room
+		
+living room	has part	wall
+building	part of	city
+city	has part	building
+top of a building	part of	city
+sunglasses	has part	gray
+sunglasses	color	gray
+sunglasses	subclass of	sunglasses
+city	subclass of	empty room
+Empty Room	narrative location	city
+Empty Room	located in the administrative territorial entity	city
+microphones	part of	microphone
+microphone	subclass of	plated
+microphone	has part	plated
+Panasonic	product or material produced	camcorder
+4k	subclass of	camcorder
+Panasonic 4k	subclass of	camcorder
+stitching	uses	needle
+		
+stitching	item operated	needle
+stainless steel	use	beverage dispenser
+stainless steel	subclass of	beverage dispenser
+stainless steel	used by	stainless steel beverage dispenser
+'three christmas trees made out of balls on a table'	depicts	christmas tree
+'three christmas trees made out of balls on a table'	instance of	christmas tree
+three christmas trees made out of balls on a table	instance of	christmas tree
+brass	subclass of	water faucet
+brass	subclass of	water fountain
+brass	use	water faucet
+mustache	instance of	photo
+'a black and white photo of a man with a mustache'	instance of	photo
+'a black and white photo of a man with a mustache'	depicts	mustache
+rope	use	hanging
+hanging	uses	rope
+		
+album, the best things in life are free	performer	gordon macke
+album	performer	gordon macke
+		
+scissors	location	table
+scissors	part of	table
+'a pair of scissors sitting on top of a table'	depicts	scissors
+Kraków	country	Poland
+		
+L'Orfeo	instance of	opera
+buildings	part of	city
+building	part of	city
+city	has parts of the class	buildings
+camera	use	close up
+close up	uses	camera
+camera	subclass of	close up
+dog collar	has part	bow tie
+bow tie	part of	dog collar
+bow tie	subclass of	dog collar
+fruit	subclass of	wooden
+		
+wooden box	has part	assorted fruit
+bathtub	part of	bathroom
+bathtub	subclass of	bathroom
+walk in shower	subclass of	bathroom
+student activity by day	instance of	bar chart
+bar chart	subclass of	chart
+bar chart	depicts	activity
+pearl	use	necklace
+blue rose	subclass of	pearl
+blue rose	instance of	pearl
+'a bald man sitting on a set of stairs'	depicts	bald man
+'a bald man sitting on a set of stairs'	depicts	bald man sitting on a set of stairs
+'a bald man sitting on a set of stairs'	depicts	stairs
+suit	has part	tie
+tie	part of	suit
+		
+dates	part of	table
+date	part of	table
+table	has part	dates
+'an owl with big eyes sitting on a branch'	depicts	owl
+'an owl with big eyes sitting on a branch'	instance of	owl
+owl	has part	big eyes
+staircase	part of	living room
+furniture	part of	living room
+living room	has parts of the class	furniture
+desk	has part	chair
+desk	subclass of	chair
+desk	different from	chair
+utility trailer	part of	building
+utility trailer	subclass of	building
+utility trailer	subclass of	trailer
+The Great Gatsby	author	Christopher Tolkien
+The Great Gatsby	performer	David Bowie
+The Great Gatsby	composer	Richard Strauss
+needle	subclass of	close up
+'a close up of a person holding a needle'	depicts	needle
+needle	instance of	close up
+boat	uses	water
+boat	uses	body of water
+boat	has part	body of water
+furniture	part of	living room
+tv	uses	flat screen
+flat screen tv	subclass of	living room
+'a man in a suit standing in front of bamboo trees'	depicts	suit
+'a man in a suit standing in front of bamboo trees'	depicts	bamboo trees
+'a man in a suit standing in front of bamboo trees'	depicts	bamboo
+bride	participant	groom
+		
+		
+2019 covid outbreak	point in time	2019
+coping with stress during the 2019 covid outbreak	point in time	2019
+coping with stress	facet of	2019 covid outbreak
+glass	part of	table
+glass	subclass of	object
+table	has part	glass
+brownies	has part	paper
+brownie	has part	paper
+brownie	has part	brownie
+patio	subclass of	lawn
+lawn	followed by	patio
+lawn	has part	patio
+'a bedroom with a view of the water'	instance of	bedroom
+'a bedroom with a view of the water'	subclass of	bedroom
+water	subclass of	bedroom
+door	part of	wall
+		
+door	connects with	wall
+driveway	part of	house
+house	has part	driveway
+		
+golf course	located in or next to body of water	ocean
+golf course	location	ocean
+golf	named after	ocean
+restaurant	use	night
+restaurant	part of	night
+Night	subclass of	restaurant
+John F. Kennedy School of Government	part of	Harvard University
+John F. Kennedy	position held	Secretary of State
+John F. Kennedy	position held	President
+clock tower	part of	building
+clock tower	subclass of	building
+Clock tower	subclass of	clock
+drawers	part of	chest
+chest of drawers	subclass of	wooden
+drawers	subclass of	wooden
+pipe	part of	pipe
+pipe	uses	pipe
+drawing of a pipe and a drawing of a pipe and a piece of pipe	depicts	drawing of a pipe and a drawing of a pipe and a piece of pipe
+chandelier	part of	closet
+chandelier	part of	walk in closet
+chandelier	connects with	drawers
+wooden	use	earrings
+wooden surface	use	earrings
+wooden	use	earring
+chest pocket	part of	shirt
+long sleeved	subclass of	shirt
+chest pocket	part of	long sleeved shirt
+coin	use	earrings
+coin	use	earring
+coin	subclass of	earrings
+cell phone	has part	camera
+camera	connects with	cell phone
+		
+lighter	has part	butane
+butane	use	lighter
+butane lighter	has part	white
+date	part of	calendar
+date circled	part of	calendar
+calendar	has part	date
+henna	use	tattoo
+henna	subclass of	tattoo
+henna tattoo	part of	hand
+white	opposite of	black
+white	has part	black
+white and black object	has part	white
+'four stuffed peppers on a blue and white plate'	is a list of	stuffed peppers
+four stuffed peppers on a blue and white plate	is a list of	stuffed peppers
+'four stuffed peppers on a blue and white plate'	subclass of	stuffed peppers
+table	subclass of	chairs
+table	has part	chairs
+table	has parts of the class	chairs
+two glasses of orange juice sit on a bar	has part	orange juice
+'two glasses of orange juice sit on a bar'	main subject	orange juice
+'two glasses of orange juice sit on a bar'	has part	orange juice
+'a field full of cotton plants with a sky background'	depicts	cotton
+'a field full of cotton plants with a sky background'	main subject	cotton
+cotton	subclass of	plants
+cabinet	has part	door
+		
+'a black cabinet with a door open'	instance of	cabinet
+futon	subclass of	mattress
+mattress	different from	futon
+futon mattress	has part	cover
+two story	subclass of	apartment building
+apartment	subclass of	building
+apartment building	has part	driveway
+key	part of	wooden box
+key	part of	box
+key	part of	wooden
+		
+		
+		
+bed	part of	bedroom
+		
+window	part of	bedroom
+photo	depicts	family
+old black and white photo	depicts	family
+family	subclass of	photo
+deck	subclass of	patio
+deck	has part	patio
+patio	subclass of	deck
+moon	subclass of	balloons
+moon	instance of	balloons
+Moon	instance of	balloons
+staircase	part of	living room
+furniture	part of	living room
+living room	has parts of the class	furniture
+utensil	part of	dishes
+utensil	subclass of	dishes
+dishes	subclass of	utensil
+lemonade	has part	gin
+lemonade	subclass of	lemonade
+lemonade	has part	lemonade
+fishnet	subclass of	stockings
+fishnet stockings	subclass of	high heels
+fishnet stockings	has part	high heels
+computer screen	depicts	fish
+computer	has part	screen
+computer screen	has part	fish on it
+John F. Kennedy School of Government	part of	Harvard University
+'a couple of men standing next to each other'	depicts	couple of men standing next to each other
+'a couple of men standing next to each other'	depicts	'a couple of men standing next to each other'
+'a group of people sitting on the back of a truck'	depicts	truck
+Back of a truck	instance of	truck
+Back of a truck	depicts	group of people sitting on the back of a truck
+desk	part of	home office
+desk	has part	chair
+		
+'a close up of a doll with blue hair'	depicts	doll
+		
+		
+motorcycle	location	parking lot
+black motorcycle	subclass of	motorcycle
+black motorcycle	location	parking lot
+shelf	part of	cabinet
+cabinet	has part	shelf
+wooden cabinet	has part	shelf
+comforter	part of	bed
+		
+		
+'the final tour poster for kiss end of the dark'	main subject	end of the dark
+'the final tour poster for kiss end of the dark'	main subject	kiss end of the dark
+Kiss End of the dark	instance of	album
+eiffel tower	subclass of	charms
+eiffel tower charm	subclass of	earrings
+eiffel tower charms	subclass of	earrings
+signs	part of	group
+signs	subclass of	group
+Signs	subclass of	signs
+'a woman with glasses smiling at the camera'	depicts	woman with glasses
+'a woman with glasses smiling at the camera'	depicts	glasses
+'a woman with glasses smiling at the camera'	instance of	photo
+seat	part of	motorcycle
+motorcycle	has part	seat
+		
+'a woman in a white dress walking on a wooden floor'	depicts	white dress
+'a woman in a white dress walking on a wooden floor'	depicts	dress
+'a woman in a white dress walking on a wooden floor'	depicts	wooden floor
+surfboard	uses	wave
+		
+surfing	uses	surfboard
+		
+eiffel tower	instance of	lit up at night
+Eiffel Tower	has part	eiffel tower
+motorcycle	subclass of	motorcycle
+motorcycle	different from	motorcycle
+'a man standing next to a white motorcycle'	depicts	motorcycle
+'a man and a woman sitting next to each other'	depicts	couple
+Man	spouse	Woman
+'a man and a woman sitting next to each other'	depicts	pair
+lamp	part of	table
+table	has part	lamp
+lamp	different from	table
+shorts	has part	t - shirt
+t - shirt	has part	shorts
+t - shirt	followed by	shorts
+granite counter tops	part of	kitchen
+granite countertops	part of	kitchen
+		
+car charger	part of	car
+		
+charger	part of	car
+henna	use	designs
+henna	use	design
+two hands with henna designs on them	uses	henna
+basketball	subclass of	game
+basketball	practiced by	men
+		
+sunglasses	has part	white
+sunglasses	has part	white background
+sunglasses	subclass of	white
+air compressor	subclass of	compressor
+air compressor	has part	compressor
+air compressor	different from	compressor
+door	part of	building
+red door	part of	building
+white	has part	red
+'a man and a woman sitting next to each other'	depicts	couple
+Man	spouse	Woman
+'a man and a woman sitting next to each other'	depicts	pair
+'a collage of photos of a modern building'	instance of	collage
+'a collage of photos of a modern building'	subclass of	collage
+'a collage of photos	instance of	collage
+'a fighter jet flying over the ocean at sunset'	depicts	sunset
+fighter jet	subclass of	fighter jet
+fighter jet	use	fighter jet flying over the ocean
+'a woman in a green dress smiling at the camera'	depicts	green dress
+'a woman in a green dress	depicts	green dress
+'a woman in a green dress	depicts	smiling at the camera
+chest of drawers	subclass of	wooden
+drawers	part of	chest
+chest	has part	drawers
+'two young girls standing next to each other holding toothbrushes'	depicts	toothbrush
+'two young girls standing next to each other holding toothbrushes'	main subject	toothbrush
+'two young girls standing next to each other holding toothbrushes'	depicts	'two young girls standing next to each other holding toothbrushes'
+head	subclass of	mannequin
+'a mannequin head with a scarf on it'	instance of	mannequin
+head with a scarf on it	instance of	mannequin
+'a woman in a red dress posing for a picture'	instance of	picture
+'a woman in a red dress posing for a picture'	genre	picture
+'a woman in a red dress posing for a picture'	depicts	red dress
+Kraków	country	Poland
+John F. Kennedy School of Government	part of	Harvard University
+		
+saucer	part of	tea cup
+tea cup	has part	saucer
+saucer	subclass of	tea cup
+T - shirt	depicts	picture of a man
+T - shirt	has part	picture of a man
+T - shirt	named after	picture of a man
+center island	part of	kitchen
+island	part of	kitchen
+kitchen	has part	island
+dirt bike	subclass of	motorcycle
+dirt bike	has parts of the class	motorcycle engine
+dirt bike	subclass of	motorcycle engine
+classic car	has part	white
+classic car	subclass of	white
+classic car	has part	white background
+road	subclass of	building
+road	has part	building
+brick building	part of	road
+plant	subclass of	image
+'a blue and white image of a plant'	depicts	plant
+'a blue and white image of a plant	depicts	plant
+'a man standing in a gym with his arms crossed'	depicts	gym
+'a man standing in a gym with his arms crossed'	main subject	gym
+gym	uses	arms crossed
+tennis court	has part	white line
+		
+		
+dress	color	white
+white dress	subclass of	dress
+white dress	facet of	white
+'the mystery of the black hole mine'	main subject	black hole mine
+'the mystery of the black hole mine'	main subject	black hole
+black hole mine	instance of	mystery
+lobby	part of	hotel
+hotel lobby	part of	hotel
+hotel lobby	has parts of the class	tables
+rings	part of	finger
+rings	part of	fingers
+ring	part of	finger
+'a man riding a zipline on top of a crane'	instance of	zipline
+Zipline	instance of	zipline
+Zipline	uses	zipline
+diamond	use	ring
+diamonds	use	ring
+diamond	subclass of	stone
+floor	part of	walls
+wooden floors	part of	walls
+wooden floors	subclass of	walls
+gears	has part	white
+gears	subclass of	white
+gears	part of	white background
+artist's rendering	depicts	office building
+artist's rendering	depicts	building
+		
+shorts	has part	white
+shorts	color	white
+blue shorts	has part	white
+'a bunch of flags flying in the air'	depicts	flag
+'a bunch of flags flying in the air'	main subject	flag
+'a bunch of flags flying in the air'	main subject	flags flying in the air
+table	subclass of	machine
+table	part of	machine
+machine	uses	table
+'a black and white photo of a man smiling'	instance of	photo
+photo of a man smiling	instance of	photo
+photo of a man smiling	genre	black and white
+'a ring with glowing stars on it'	instance of	ring
+ring	has part	stars
+'a ring with glowing stars	instance of	ring
+John F. Kennedy School of Government	part of	Harvard University
+'a group of people standing around a man laying on the ground'	depicts	'a group of people standing around a man laying on the ground'
+'a group of people standing around a man laying on the ground'	depicts	man
+airport	item operated	planes
+planes	location	airport
+airport	item operated	plane
+car	part of	house
+house	has part	car
+'a house with a car parked in front of it'	subclass of	house
+number	part of	table
+numbers on it	subclass of	table
+table	has part	numbers
+bed	part of	bed room
+bed room	has part	bed
+		
+black and white	subclass of	photo
+'a black and white photo of an old building'	instance of	photo
+'a black and white photo of an old building'	subclass of	photo
+hot wheels	part of	car
+hot wheel	part of	car
+hot wheel	subclass of	car
+table	part of	room
+		
+		
+stained glass	part of	window
+stained glass window	subclass of	stained glass
+stained glass window	uses	stained glass
+picture of a city	subclass of	magazine
+picture of a city	instance of	magazine
+magazine	main subject	picture of a city
+		
+		
+chainring	part of	bicycle
+tree	subclass of	rocks
+tree	has parts of the class	rocks
+trees	has parts of the class	rocks
+computer	subclass of	cartoon
+computer	use	cartoon
+working on a computer	subclass of	cartoon
+blue stone	use	necklace
+blue stone	part of	necklace
+blue stone	subclass of	necklace
+'a woman in orange pants and a purple top'	main subject	purple
+'a woman in orange pants and a purple top'	depicts	'a woman in orange pants and a purple top'
+'a woman in orange pants and a purple top'	depicts	purple top
+'a little boy dressed as an elf standing next to a horse'	depicts	elf
+'a little boy dressed as an elf standing next to a horse'	depicts	Elf
+'a little boy dressed as an elf	depicts	horse
+'the cover of lady of sherwood'	main subject	lady of sherwood
+'the cover of lady of sherwood'	depicts	lady of sherwood
+lady of sherwood	instance of	cover
+helicopter	different from	building
+		
+helicopter	subclass of	flying
+red and white quilt	instance of	quilt
+'a close up of a red and white quilt'	instance of	quilt
+red and white quilt	subclass of	quilt
+emerald	subclass of	diamond
+diamond	has part	emerald
+emerald	instance of	diamond
+the city skyline is reflected in the water	instance of	skyline
+the city skyline is reflected in the water	depicts	skyline
+the city skyline is reflected in the water	main subject	reflected in the water
+road	used by	car
+		
+car driving down a snow covered road	main subject	snow covered road
+John F. Kennedy School of Government	part of	Harvard University
+John F. Kennedy	position held	President
+John F. Kennedy	significant event	assassinated
+illuminated	part of	building
+lit up at night	subclass of	building
+lit up at night	facet of	building
+padlock	part of	padlock
+credit card	has part	padlock
+padlock	part of	credit card
+'a man and woman standing on a red carpet'	main subject	red carpet
+'a man and woman standing on a red carpet'	depicts	red carpet
+red carpet	participant	man
+		
+bearish triangle	instance of	chart
+bearish triangle	has part	bearish triangle
+John F. Kennedy School of Government	part of	Harvard University
+John F. Kennedy	position held	President
+John F. Kennedy	position held	Secretary of Defense
+gym	sport	boxing
+boxing	uses	gym
+		
+window	part of	dining room
+furniture	part of	dining room
+dining room	has part	furniture
+bar stools	part of	kitchen
+center island	part of	kitchen
+center island	subclass of	kitchen
+mannequin mannequin mannequin mannequin mannequin mannequin mannequin manne	depicts	mannequin mannequin mannequin mannequin manne
+mannequin mannequin mannequin mannequin mannequin mannequin mannequin manne	has parts of the class	mannequin mannequin mannequin mannequin manne
+mannequin mannequin mannequin mannequin mannequin mannequin mannequin manne	named after	mannequin mannequin mannequin mannequin manne
+'the neighborhood council logo with trees and houses in the background'	instance of	logo
+the neighborhood council logo	depicts	houses
+'the neighborhood council logo with trees and houses in the background'	depicts	neighborhood council
+cat with big eyes	instance of	photo
+'a black and white photo of a cat with big eyes'	depicts	cat
+big eyes	part of	cat
+walkway	part of	apartment building
+walkway	subclass of	walkway
+walkway	part of	apartment
+'a dog laying on the floor next to a pile of papers'	depicts	dog
+'a dog laying on the floor next to a pile of papers'	main subject	dog
+'a dog laying on the floor next to a pile of papers'	depicts	dog laying on the floor next to a pile of papers
+boat	use	boat
+whale	uses	boat
+boat	part of	boat
+sink	part of	kitchen
+oven	subclass of	stove top
+stove top oven	part of	kitchen
+'a movie poster with a man diving in the water'	instance of	movie poster
+movie poster	subclass of	poster
+'a movie poster with a man diving in the water	instance of	movie poster
+ford ranger	subclass of	pickup truck
+ford	product or material produced	pickup truck
+ford	product or material produced	ranger pickup truck
+pillow	use	decorative
+pillow	has part	white
+pillow	subclass of	decorative
+ball head	part of	tripod
+ball	part of	tripod
+ball head	subclass of	tripod
+Nike	product or material produced	sneakers
+black jumpsuit	followed by	white sneakers
+black jumpsuit	has part	white sneakers
+helmet	part of	bike
+helmet	has part	sunglasses
+bike	has part	helmet
+city	located in or next to body of water	lake
+mountain	subclass of	aerial view
+mountain	part of	lake
+fish tank	has parts of the class	coral
+fish tank	has part	corals
+fish tank	has part	coral
+sandals	has part	white
+black sandals	has part	white
+black	opposite of	white
+jumper cable	connects with	battery charger
+jumper cables	connects with	battery charger
+		
+hot tub	part of	balcony
+hot tub	has part	balcony
+hot tub	location	balcony
+fur hat	subclass of	scarf
+Fur hat	subclass of	scarf
+fur hat	has part	scarf
+dresser	subclass of	chest of drawers
+chest of drawers	subclass of	dresser
+		
+camera head	part of	tripod
+		
+camera head	connects with	tripod
+mannequin mannequin mannequin mannequin mannequin mannequin mannequin mann	depicts	mannequin mannequin mannequin mannequin mannequin mann
+mannequin mannequin mannequin mannequin mannequin mannequin mannequin mann	depicts	mannequin mannequin mannequin mannequin mannequin mannequin mann
+mannequin mannequin mannequin mannequin mannequin mannequin mannequin mann	depicts	mannequin mannequin mannequin mannequin mannequin mannequin
+dream	subclass of	ambitions
+dreams	subclass of	ambitions
+dream	instance of	ambitions
+ottoman	part of	chair
+chair	has part	ottoman
+ottoman	subclass of	chair
+soda	has part	cans
+soda	subclass of	cans
+soda	instance of	cans
+hot tub	has part	wooden deck
+hot tub	has part	deck
+deck	has part	hot tub
+Knitted Hat	subclass of	knitted
+Knitted Hat	product or material produced	knitted
+'a woman wearing a green knitted hat'	instance of	knitted hat
+table	has part	shelves
+tables	has part	shelves
+white	opposite of	black
+chest of drawers	part of	room
+drawers	part of	chest of drawers
+		
+food items	subclass of	collage
+collage	uses	food
+collage	has part	food items
+'a couple of stuffed animals sitting next to each other'	main subject	stuffed animal
+'a couple of stuffed animals sitting next to each other'	depicts	stuffed animal
+'a couple of stuffed animals sitting next to each other'	main subject	stuffed animals
+'a lit up glass box with a flower on it'	depicts	flower
+flower	subclass of	glass
+'a lit up glass box with a flower on it'	main subject	flower
+graph	depicts	number of people in the world
+number of people in the world	subclass of	graph
+graph	depicts	number of people
+parking lot	use	parking
+three small cars are parked in a parking lot	main subject	parking lot
+three small cars are parked in a parking lot	facet of	parking lot
+floral print	subclass of	dress
+floral	subclass of	print
+floral print	use	dress
+table	has parts of the class	chairs
+chair	part of	table
+table	has part	chairs
+chapman	located in the administrative territorial entity	tx
+		
+Chapman	located in the administrative territorial entity	tx
+'a black and white photo of three men with long hair'	instance of	photo
+photo of three men with long hair	depicts	long hair
+photo	depicts	long hair
+A Winter Wonderland	part of	Walt Disney World
+A Winter Wonderland	part of the series	Walt Disney World
+A Winter Wonderland	director	Michael Pollan
+metal object	part of	table
+table	subclass of	metal object
+table	has part	metal
+drawers	part of	table
+table	has part	drawers
+		
+'a woman in a black gown	depicts	white wall
+'a woman in a black gown posing in front of a white wall'	depicts	'a woman in a black gown posing in front of a white wall'
+'a woman in a black gown posing in front of a white wall'	depicts	white wall
+multiple spreadsheets	subclass of	spreadsheet
+		
+		
+counter	subclass of	digital scale
+counter	part of	digital scale
+digital scale	has part	counter
+box	subclass of	paper toy
+box	subclass of	toy
+paper toy	has part	box
+oil and gas industry	instance of	industry
+oil and gas	instance of	industry
+oil and gas industry	country	u s
+tower	part of	field
+field	has part	tower
+field	instance of	tower
+furniture	part of	living room
+tv	uses	flat screen
+flat screen tv	subclass of	living room
+cabinets	part of	kitchen
+appliances	part of	kitchen
+kitchen	has parts of the class	appliances
+dinner table	has part	woman
+table	use	dinner
+woman	opposite of	man
+turbochack	has part	white background
+turbochack	part of	white background
+turbochack	uses	white background
+cell phone case	has part	image of a butterfly
+cell phone case	depicts	image of a butterfly
+cell phone case	depicts	butterfly
+handles	part of	handbag
+'a purple handbag with brown handles'	instance of	handbag
+'a purple handbag with brown handles'	subclass of	handbag
+'a view of the ocean from a covered patio'	subclass of	covered patio
+'a view of the ocean from a covered patio'	instance of	covered patio
+'a view of the ocean from a covered patio'	depicts	ocean
+table	has part	purse
+table	part of	table
+table	subclass of	purse
+white shirt	has part	tie
+tie	subclass of	shirt
+shirt	has part	tie
+sign	named after	toshiba
+toshiba sign	part of	building
+toshiba sign	named after	toshiba
+kettle	has part	stand
+stand	part of	kettle
+		
+golf	uses	blue shirt
+		
+'a woman in a blue shirt and grey skirt	sport	golf
+violin	use	yellow dress
+violin	part of	yellow dress
+'a woman in a yellow dress holding a violin'	depicts	violin
+chandelier	subclass of	furniture
+furniture	part of	living room
+living room	has parts of the class	furniture
+carriage	has part	horse
+horse drawn carriage	subclass of	carriage
+horse drawn carriage	uses	horse
+'a man and a little girl walking on a beach'	depicts	beach
+'a man and a little girl walking on a beach'	main subject	beach
+Man and a little girl walking on a beach	depicts	beach
+field	sport	football
+football	uses	field
+		
+		
+		
+cables	use	connected
+hammer	part of	roof
+roof	part of	house
+		
+major lakes	located in the administrative territorial entity	canada
+major lakes	country	canada
+the major lakes	located in the administrative territorial entity	canada
+interior of a luxury car	facet of	luxury car
+luxury car	has part	interior
+interior of a luxury car	facet of	car
+John F. Kennedy School of Government	part of	Harvard University
+Job Simulator	developer	Google
+John F. Kennedy School of Government	country	USA
+sushi	subclass of	plates
+chopsticks	use	sushi
+chopsticks	part of	sushi
+pants	has part	jacket
+black pants	has part	brown jacket
+brown jacket	has part	black pants
+diamond	use	ring
+ring	has part	diamond
+diamond ring	has part	white background
+blue sky	subclass of	sky
+blue sky	part of	sky
+air plane	location	blue sky
+bar chart	facet of	sales items sold
+bar chart	facet of	sales item sold
+bar chart	depicts	sales items sold
+dress	subclass of	photo
+dress	instance of	photo
+dress	subclass of	black and white
+number of people in the united states	instance of	bar chart
+people in the united states	instance of	bar chart
+bar chart	country	united states
+graffiti	location	skate park
+graffiti	facet of	skate park
+graffiti	part of	skate park
+group	has part	people
+group of people standing next to each other	subclass of	group
+group of people standing next to each other	instance of	group
+hardshell	subclass of	jacket
+hardshell jacket	part of	mountain
+hardshell jacket	subclass of	mountain hardshell
+gold	has part	silver
+butterfly	has part	silver
+butterfly	subclass of	silver
+chart	has part	blue line
+		
+		
+table	part of	restaurant
+		
+restaurant	has part	table
+earphones	part of	earphones
+headphones	has part	earphones
+earphones	part of	earphone
+'a man and a woman holding hands on the beach'	depicts	beach
+'a man and a woman holding hands on the beach'	main subject	beach
+'a man and a woman holding hands on the beach'	depicts	holding hands on the beach
+beads	use	earrings
+beads	part of	earrings
+bead	use	earrings
+mirror	part of	bathroom
+sink	part of	bathroom
+sink	has part	mirror
+car alter	subclass of	wiring kit
+wiring kit	subclass of	car alter
+wiring kit	subclass of	alter
+lamp	part of	couch
+lamp	different from	couch
+'a woman sitting on top of a couch next to a lamp'	depicts	couch
+furniture	part of	living room
+fire place	part of	living room
+living room	has parts of the class	furniture
+bed room	has part	bed
+		
+bed	part of	bed room
+guitar	part of	wall
+'a close up of a guitar on a wall'	depicts	guitar
+guitar	location	wall
+'a man is taken away from a police car'	main subject	police car
+'a man is taken away from a police car'	depicts	police car
+'a man is taken away from a police car'	main subject	a police car
+cigarette	part of	stack
+cigarette	uses	stack
+cigarettes	subclass of	stacked on top of each other
+cabinets	part of	kitchen
+		
+kitchen	has parts of the class	appliances
+mirror	part of	bathroom
+sink	part of	bathroom
+sink	has part	mirror
+tea	different from	coffee
+coffee	different from	tea
+coffee	subclass of	tea
+'a red toyota avalon driving down a road'	instance of	avalon
+red toyota	instance of	avalon
+red toyota	subclass of	avalon
+spartans logo	applies to jurisdiction	michigan
+spartans	applies to jurisdiction	michigan
+spartans	located in the administrative territorial entity	michigan
+spreadsheet spreadsheet spreadsheet spreadsheet spreadsheet spreadsheet spreadsheet spreadsheet spreadsheet spreads	subclass of	spreadsheet spreadsheet spreadsheet spreadsheet spreadsheet spreadsheet spread
+spreadsheet spreadsheet spreadsheet spreadsheet spreadsheet spreadsheet spreadsheet spreadsheet spreadsheet spreads	subclass of	spreadsheet spreadsheet spreadsheet spreadsheet spreadsheet spreadsheet spreads
+spreadsheet spreadsheet spreadsheet spreadsheet spreadsheet spreadsheet spreadsheet spreadsheet spreadsheet spreadsheet spreads	subclass of	spreadsheet spreadsheet spreadsheet spreadsheet spreadsheet spreadsheet spread
+table	uses	food
+table	item operated	food
+table	use	food
+construction	product or material produced	site
+construction site	has part	men
+construction site	use	construction
+furniture	part of	living room
+tv	uses	flat screen
+flat screen tv	subclass of	living room
+dog show	subclass of	presented
+dog show	uses	presented
+dog show	has part	presented at a dog show
+		
+soccer	uses	uniform
+		
+table	has part	item
+table	has parts of the class	item
+		
+ring	has part	blue stone
+ring	has part	stone
+blue stone	part of	ring
+waterfall	part of	forest
+waterfall	location	forest
+forest	subclass of	green
+'a woman holding a ball in her hands'	depicts	ball
+ball	part of	ball
+ball in her hands	depicts	ball
+laptop	subclass of	computer
+laptop computer	has part	white surface
+		
+white dress	instance of	mannequin
+dress	part of	mannequin
+white dress	subclass of	mannequin stand
+electronic device	subclass of	black
+electronic device	has part	black
+black electronic device	subclass of	close up
+bed	part of	bed room
+bed room	has part	bed
+		
+'a woman in a blue and yellow shirt	sport	frisbee
+'a woman in a blue and yellow shirt	uses	frisbee
+Frisbee	uses	frisbee
+motorcycle	subclass of	motorcycle
+motorcycle	different from	motorcycle
+		
+man	child	child
+child	opposite of	man
+		
+Man	spouse	Woman
+		
+'a man and a woman standing next to each other'	depicts	couple
+building	subclass of	photo
+photo	depicts	building
+old black and white photo	depicts	building
+		
+John F. Kennedy School of Government	part of	Harvard University
+William Shakespeare	notable work	Cymbeline
+'a view of a garden with a bench and mountains in the background'	depicts	garden
+'a view of a garden with a bench and mountains in the background'	instance of	garden
+'a view of a garden with a bench and mountains in the background'	depicts	bench
+'a penny sitting next to a glass mosaic'	depicts	penny
+'a penny sitting next to a glass mosaic'	instance of	mosaic
+'a penny sitting next to a glass mosaic'	instance of	glass mosaic
+cruise ship	uses	harbor
+		
+cruise ship	location	harbor
+track	use	running
+track	subclass of	running
+running on a track	has part	girls running on a track
+residential	subclass of	home
+residential area	subclass of	home
+residential area	subclass of	new home
+furniture	part of	living room
+fire place	part of	living room
+living room	has parts of the class	furniture
+microwave	subclass of	panasonic
+Panasonic	product or material produced	microwave
+panasonic	subclass of	microwave
+couch	part of	living room
+blue couch	part of	living room
+kitchen	has part	living room
+sink	part of	kitchen
+kitchen	has part	sink
+		
+'a bunch of cubes that are in the shape of a heart'	instance of	cubes
+'a bunch of cubes that are in the shape of a heart'	instance of	cube
+'a bunch of cubes	depicts	heart
+ear buds	part of	table
+ear buds	part of	ear
+ear bud	part of	ear
+united states	instance of	country
+each country	country	united states
+the united states	instance of	country
+'a woman in a black dress posing for a picture'	instance of	picture
+'a woman in a black dress posing for a picture'	genre	picture
+'a woman in a black dress posing for a picture'	depicts	picture
+tunnel	part of	tunnel
+tunnel	subclass of	rug
+tunnel	part of	rug
+number of people in the united states	instance of	bar chart
+people in the united states	instance of	bar chart
+bar chart	country	united states
+children	uses	bed
+bed	used by	children
+		
+George W. Bush	position held	President
+		
+		
+chairs	part of	table
+chair	part of	table
+table	has parts of the class	chairs
+bed	part of	bed room
+bed room	has part	bed
+flat screen tv	part of	bed room
+magazine	subclass of	sculpture
+magazine	part of	room
+'a sculpture made out of magazines in a room'	depicts	magazine
+monitor	has part	keyboard
+keyboard	part of	monitor
+		
+'a couple of people that are on a stage'	instance of	stage
+stage	has part	people
+stage	part of	stage
+lightning	subclass of	bolt
+lightning bolt	location	sky
+lightning bolt	part of	sky
+skateboard	used by	man
+skateboard	owned by	man
+Man on a skateboard	uses	skateboard
+John F. Kennedy School of Government	part of	Harvard University
+'a couple of people that are walking in the dirt'	instance of	film
+John F. Kennedy	position held	Secretary of Defense
+cookie	owned by	girl scout
+girl scout cookie	named after	lake
+cookie	named after	girl scout
+building	subclass of	group
+building	part of	group
+building	part of	group of people
+sidewalk	opposite of	building
+building	has part	sidewalk
+		
+key lock	part of	safe box
+safe box	has part	key lock
+lock	part of	safe box
+two women sitting at a table with a cat	depicts	cat
+'two women sitting at a table with a cat'	depicts	cat
+two women sitting at a table with a cat	main subject	cat
+sun	opposite of	clouds
+		
+cloud	opposite of	sun
+'a woman in an orange dress	uses	microphone
+'a woman in an orange dress holding a microphone'	uses	microphone
+'a woman in an orange dress	instance of	microphone
+John F. Kennedy School of Government	part of	Harvard University
+'a couple of houses sitting next to each other'	followed by	'a couple of houses sitting next to each other'
+'a couple of houses sitting next to each other'	depicts	houses
+dragon	subclass of	drawing
+castle	depicts	dragon
+dragon	instance of	drawing
+suit	has part	tie
+tie	subclass of	suit
+		
+head	part of	head
+'a close up of an alien head	depicts	black background
+'a close up of an alien head on a black background'	depicts	head
+red	has part	green
+green	has part	red
+red	opposite of	green
+counter top	part of	kitchen
+counter top space	part of	kitchen
+countertop	part of	kitchen
+'a painting of a farm scene with cows'	instance of	painting
+painting of a farm scene with cows	depicts	cows
+painting of a farm scene with cows	depicts	cow
+battleship	location	body of water
+battleship	subclass of	large
+battleship	uses	water
+power cord	has part	white
+power cord	has part	white background
+		
+golf	uses	bag
+		
+golf bag	sport	golf
+National Gallery of Canada	located in the administrative territorial entity	Ottawa
+National Museum of American Art	located in the administrative territorial entity	Washington, D.C.
+National Museum of American Art	located in the administrative territorial entity	Washington, DC
+band saw	product or material produced	wood
+band saw	use	cut a piece of wood
+wood	use	cut
+beds	part of	bedroom
+bed	part of	bedroom
+beds	use	bedroom
+pool	location	backyard
+pool	part of	backyard
+		
+'a man posing for a picture on a stage'	instance of	picture
+stage	subclass of	picture
+'a man posing for a picture on a stage'	depicts	picture on a stage
+comic strip	subclass of	comic
+'a woman talking to a man'	instance of	comic strip
+comic strip	characters	man
+'a painting of a man on a brick wall'	instance of	painting
+painting of a man on a brick wall	instance of	painting
+'a painting of a man on a brick wall'	field of work	painting
+driver test app	platform	iphone
+the australian driver test app on an iphone	instance of	app
+the australian driver test app on an iphone	platform	iphone
+bed	part of	bedroom
+white bed	part of	bedroom
+bed	use	bedroom
+battery	part of	cell phone
+cell phone	has part	battery
+		
+two men shaking hands in front of flags	depicts	two men shaking hands in front of flags
+two men shaking hands in front of flags	depicts	flags
+'two men shaking hands in front of flags'	depicts	two men shaking hands in front of flags
+'a woman wearing a red jumpsuit'	depicts	red jumpsuit
+'a woman wearing a red jumpsuit'	instance of	jumpsuit
+'a woman wearing a red jumpsuit'	main subject	red jumpsuit
+man in a black shirt	sport	frisbee
+'a man in a black shirt throwing a frisbee'	sport	frisbee
+'a man in a black shirt	sport	frisbee
+pillows	part of	bed
+pillow	part of	bed
+bed	has part	pillows
+aisle	part of	church
+		
+church	has part	aisle
+scissors	subclass of	item
+scissors	subclass of	items
+scissors	subclass of	items in it
+list of new orleanss	instance of	table
+list of new orleanss	subclass of	table
+new Orleans	instance of	table
+mirror	part of	bed room
+mirror	part of	bed
+bed room	has part	bed
+wheel	part of	wheel
+wheel	has part	white
+wheel	part of	white surface
+furniture	part of	living room
+fire place	part of	living room
+living room	has parts of the class	furniture
+blue jeans	has part	white shirt
+white shirt	followed by	blue jeans
+		
+bread	subclass of	cutting board
+bread	uses	cutting board
+bread	has part	cutting board
+place setting	part of	table
+place settings	part of	table
+table	has part	place setting
+factory	product or material produced	factory
+factory	product or material produced	cow
+black and white cows	part of	factory
+lock	has part	key
+lock and key	use	earrings
+lock and key	has part	earrings
+		
+album	performer	buddy miles
+buddy miles's album	performer	buddy miles
+'a woman and two little girls sitting on a set of stairs'	depicts	'a woman and two little girls sitting on a set of stairs'
+'a woman and two little girls sitting on a set of stairs'	depicts	stairs
+'a woman and two little girls sitting on a set of stairs'	depicts	a set of stairs
+writing	uses	paper
+writing on it	subclass of	paper
+writing on it	uses	paper
+high heels	has part	heel
+		
+skull	subclass of	high heels
+couch	part of	living room
+living room	has part	couch
+living room	has parts of the class	couch
+painting	part of	wall
+cabinet	part of	wall
+hanging on the wall	subclass of	painting
+lamp	subclass of	furniture
+furniture	part of	living room
+living room	has parts of the class	furniture
+shell	part of	table
+		
+'a close up of a shell on a table'	depicts	shell
+number of people in the united states	instance of	bar chart
+people in the united states	instance of	bar chart
+bar chart	country	united states
+counter top	part of	kitchen
+counter top space	part of	kitchen
+countertop	part of	kitchen
+ring	part of	hand
+ring	used by	hand
+ring	uses	hand
+shoes	has part	reflective surface
+shoe	uses	reflective surface
+shoe	has part	reflective surface
+suit	has part	tie
+tie	part of	suit
+		
+plates	subclass of	silverware
+silverware	has part	plates
+		
+drawers	part of	cabinet
+cabinet	has part	drawers
+drawer	part of	cabinet
+shorts	has part	top
+white shorts	has part	top
+white shorts	subclass of	shorts
+chocolate	part of	white plate
+chocolate	has part	white
+white plate	has part	chocolate
+'the sun is setting over the city skyline'	main subject	sun is setting over the city skyline
+the sun is setting over the city skyline	depicts	city skyline
+'the sun is setting over the city skyline'	main subject	city skyline
+furniture	part of	living room
+living room	has parts of the class	furniture
+window	part of	living room
+furniture	part of	living room
+fire place	part of	living room
+living room	has parts of the class	furniture
+posing for a picture	depicts	children
+group of children posing for a picture	instance of	picture
+group of children posing for a picture	subclass of	picture
+mirror	part of	dresser
+mirror	subclass of	dresser
+mirror	use	dresser
+'a teddy bear sitting next to a camera'	depicts	teddy bear
+'a teddy bear sitting next to a camera'	main subject	teddy bear
+'a teddy bear sitting next to a camera'	named after	teddy bear
+'a sign that says beware of zombies'	instance of	sign
+sign that says beware of zombies	instance of	sign
+Beware of zombies	instance of	sign
+bed	part of	bedroom
+		
+window	part of	bedroom
+'a dog sitting on top of a tree stump'	depicts	dog
+'a dog sitting on top of a tree stump'	depicts	dog sitting on top of a tree stump
+'a dog sitting on top of a tree stump'	depicts	tree stump
+mattress	part of	box
+mattress	different from	box
+		
+cell phone	instance of	image
+cell phone	subclass of	image
+cell phone	has part	image of a black cell phone
+jumping out of the water	depicts	humpback whale
+'a humpback whale jumping out of the water'	depicts	humpback whale
+jumping out of the water	facet of	humpback whale
+table cloth	part of	table
+		
+table	has part	table cloth
+'a screen shot of a dashboard meeting'	instance of	screen shot
+'a screen shot of a dashboard meeting'	main subject	dashboard meeting
+'a screen shot of a dashboard meeting'	depicts	dashboard meeting
+tree	part of	house
+house	has part	tree
+'a house with a tree in front of it'	depicts	tree
+bed	part of	bedroom
+bed	use	bedroom
+bed	subclass of	bedroom
+mobile phone	continent	world
+mobile phones	continent	world
+mobile phone	has part	number of mobile phones in the world
+twin beds	part of	bedroom
+beds	part of	bedroom
+bed	has part	twin beds
+macaron	part of	table
+macaron	subclass of	macaron
+Macaron	subclass of	macaron
+necklace	has part	earrings
+necklace	has part	earring
+earrings	part of	necklace
+garden fork	part of	potted plant
+potted plant	has part	garden fork
+potted plant	uses	garden fork
+diamond	use	heart
+'a black and white diamond heart necklace	instance of	necklace
+'a black and white diamond heart necklace'	instance of	necklace
+'a pair of purses sitting on top of each other'	instance of	purses
+'a pair of purses sitting on top of each other'	subclass of	purses
+'a pair of purses sitting on top of each other'	instance of	purse
+'a woman in a long green dress'	depicts	dress
+'a woman in a long green dress'	instance of	dress
+'a woman in a long green dress'	depicts	long green dress
+'a woman in a blue shirt and black jacket'	depicts	blue shirt
+		
+Blue shirt	has part	black jacket
+bench	subclass of	table
+table	subclass of	chairs
+table	has parts of the class	chairs
+cell phone	uses	table
+cell phone	part of	table
+		
+leather seats	part of	sports car
+red leather seats	part of	sports car
+sports car	has part	seats
+paper dolls 1900 - 1950	point in time	1900
+paper dolls 1900 - 1950	point in time	paper dolls 1900
+paper dolls 1900 - 1950	depicts	paper dolls 1900
+ceiling	part of	room
+lights hanging from the ceiling	part of	room
+lights	part of	ceiling
+fighter jet	location	sky
+fighter jet	uses	sky
+fighter jet	location	cloudy sky
+crib	part of	baby's room
+crib	use	baby's room
+crib	used by	baby
+table	has part	shelf
+shelf	part of	table
+		
+squats	part of	gym
+squats	location	gym
+squat	part of	gym
+'a table with four flamingo coasters on it'	instance of	table
+'a table with four flamingo coasters	instance of	table
+'a table with four flamingo coasters on it'	main subject	flamingo coaster
+'a close up of four black wires	depicts	table
+'a close up of four black wires on a table'	depicts	table
+'a close up of four black wires on a table'	depicts	'a close up of four black wires on a table'
+ring	part of	rock
+'a close up of a ring on a rock'	depicts	ring
+		
+'a man and a woman standing at the edge of a cliff'	depicts	cliff
+Man and a Woman	depicts	cliff
+Man and a woman standing at the edge of a cliff	depicts	cliff
+white door	has part	white background
+white door	has part	white
+door	has part	white
+Before and after her weight loss	main subject	weight loss
+before and after her weight loss	main subject	weight loss
+Before and after her weight loss	main subject	woman before and after her weight loss
+bar chart	country	united states
+people in the united states	instance of	bar chart
+bar chart	country of origin	united states
+soldiers	location	building
+Army	country	United States
+soldiers standing in front of a building	part of	building
+forest	has part	smoke
+forest	product or material produced	smoke
+'a plane flying over a forest filled with lots of smoke'	depicts	forest
+women	opposite of	men
+women standing next to each other	instance of	group
+women standing next to each other	subclass of	group
+food	used by	person
+food	has part	person
+food	part of	person
+'a man and a woman hugging each other'	instance of	hugging
+man	spouse	woman
+		
+black and white	subclass of	photo
+black and white photo	subclass of	photo
+photo of a person laying on the floor	instance of	photo
+pipe fitting	has part	stainless steel
+stainless steel	subclass of	pipe fitting
+stainless steel	use	pipe fitting
+mirror	part of	dresser
+mirror	subclass of	dresser
+mirror	use	dresser
+plate	part of	table
+table	has part	plate
+		
+tarmac	part of	airport
+		
+airport	has part	tarmac
+table	part of	dining area
+tables	part of	dining area
+tables and chairs	part of	dining area
+'a green and white dice in a clear box'	instance of	dice
+dice	part of	clear box
+		
+valve	part of	ball
+ball valve	has part	white
+ball valve	has part	white background
+experts	subclass of	graph
+average number of experts	subclass of	graph
+graph	depicts	experts
+satellite dish	subclass of	satellite
+satellite dish	uses	satellite
+satellite dish	has part	satellite
+head	part of	head
+'a close up of a paper animal head on a wall'	depicts	paper animal head on a wall
+head	subclass of	paper
+bike	subclass of	dirt
+Dirtbike	subclass of	bike
+Dirtbike	subclass of	dirt bike
+suit	has part	tie
+tie	part of	suit
+		
+chair	part of	salon
+chair	use	salon
+chair	part of	table
+bunker	part of	golf course
+bunker	facet of	golf course
+golf course	has part	bunker
+number of people in the united states	country	united states
+		
+number of people in the united states	has part	number of people in the united states
+st joseph's college	instance of	logo
+the logo for st joseph's college	named after	st joseph's college
+the logo for st joseph's college	applies to jurisdiction	st joseph's college
+wine glass	part of	table
+table	has part	wine glass
+wine	part of	table
+necklace	has part	earrings
+necklace	has part	earring
+earrings	part of	necklace
+bed	part of	bed room
+bed room	has part	bed
+desk	part of	bed
+logo	part of	t - shirt
+t - shirt	has part	logo
+logo on the chest	part of	t - shirt
+cupcake	instance of	costume
+cupcake costume	main subject	little girl
+'a little girl wearing a cupcake costume'	instance of	costume
+counter top	part of	kitchen
+cabinets	has part	counter top
+		
+leather	use	boots
+black leather	subclass of	boots
+leather boots	subclass of	men's
+'a couple of motorcycles parked next to each other'	main subject	motorcycle
+'a couple of motorcycles parked next to each other'	depicts	motorcycle
+'a couple of motorcycles parked next to each other'	instance of	motorcycle
+'a black and white drawing of a basket of vegetables'	instance of	drawing
+vegetables	subclass of	drawing
+'a black and white drawing of a basket of vegetables'	depicts	vegetable
+body of water	subclass of	close up
+body of water	part of	water
+body of water	part of	body of water
+court	sport	basketball
+court with lines painted on it	sport	basketball
+basketball court	has part	lines painted on it
+wooden fence	instance of	photo
+'a black and white photo of a wooden fence'	instance of	photo
+'a black and white photo of a wooden fence'	depicts	fence
+district of district 20	area	20
+district of district 20	located in the administrative territorial entity	district of district 20
+map of the district of district 20	depicts	district of district 20
+cars	part of	street
+car	part of	street
+cars	location	street
+'a row of palm trees	depicts	wind
+'a row of palm trees	depicts	palm trees
+'a row of palm trees blowing in the wind'	depicts	palm trees
+stove	part of	kitchen
+kitchen	has part	stove
+		
+white shirt	color	white
+white shirt	subclass of	close up
+white shirt	instance of	close up
+mantle	part of	electric fireplace
+mantle	part of	fireplace
+electric fireplace	has part	mantle
+sign	subclass of	group
+sign	part of	group of people
+sign	subclass of	group of people
+window	part of	doll house
+doll house	has part	window
+ladder	part of	doll house
+'a white car driving down a country road'	main subject	country road
+country road	subclass of	car
+road	used by	car
+hood	part of	parka
+faux hood	part of	parka
+parka	has part	hood
+car	part of	building
+building	has part	car
+building	has parts of the class	car
+food	part of	table
+table	uses	food
+table	item operated	food
+rugby ball	sport	rugby
+rugby	uses	ball
+		
+suit	has part	shoes
+suit	has part	shoe
+		
+table	has parts of the class	chairs
+table	part of	kitchen
+kitchen	has part	table
+dashboard	has part	line graph
+line graph	part of	dashboard
+dashboard	depicts	line graph
+furniture	part of	living room
+tv	uses	flat screen
+flat screen tv	subclass of	living room
+'a yellow and white building with cars parked in front of it'	depicts	'a yellow and white building with cars parked in front of it'
+'a yellow and white building with cars parked in front of it'	instance of	building
+'a yellow and white building with cars parked in front of it'	followed by	'a yellow and white building with cars parked in front of it'
+counter	subclass of	group
+counter	instance of	group
+counter	subclass of	group of people
+smart watches	subclass of	watches
+Apple Watch	subclass of	smart watch
+Apple Watch Series 3	developer	Apple
+table	has part	information
+table	subclass of	information
+table	subclass of	information on it
+Red bikini	instance of	picture
+red bikini	subclass of	picture
+red bikini	instance of	picture
+'a chair with a floral pattern on it'	instance of	chair
+'a chair with a floral pattern on it'	subclass of	chair
+chair	subclass of	chair
+'a woman in a yellow dress posing for a picture'	instance of	picture
+'a woman in a yellow dress posing for a picture'	genre	picture
+'a woman in a yellow dress posing for a picture'	depicts	picture
+skyscraper	subclass of	building
+street	part of	city
+street	located in the administrative territorial entity	city
+line graph	subclass of	graph
+line graph	part of	graph
+		
+table	has parts of the class	chairs
+table	part of	kitchen
+kitchen	has part	table
+stainless steel	subclass of	appliances
+stainless steel	subclass of	appliance
+stainless steel appliances	part of	kitchen
+		
+website	has part	page
+website page	part of	website
+glasses	has part	white
+pair of glasses	has part	white
+glasses	has part	white background
+'a white boat is docked in the water'	depicts	boat
+'a white boat is docked in the water'	instance of	boat
+Docked in the water	instance of	boat
+remodeling	product or material produced	house
+Before and after remodeling	facet of	remodeling
+before and after remodeling	facet of	house
+soap in a tin	has part	patchouli
+soap	has part	tin
+soap	part of	tin
+'a group of people standing around a car in the desert'	depicts	desert
+'a group of people standing around a car in the desert'	depicts	car
+'a group of people standing around a car in the desert'	narrative location	desert
+digital paper	subclass of	papers
+digital paper	subclass of	paper
+digital paper	subclass of	digital
+white pants	has part	tank top
+tank top	subclass of	pants
+pants	has part	tank top
+toilet	opposite of	floor
+		
+toilet	different from	floor
+'a man holding a red lobster in his hand'	depicts	red lobster
+Red Lobster	product or material produced	lobster
+'a man holding a red lobster in his hand'	main subject	red lobster
+		
+field	sport	baseball
+baseball field	part of	city skyline
+pipe organ	part of	building
+pipe organ	location	building
+		
+painting	part of	wall
+hanging on a wall	subclass of	painting
+paintings hanging on a wall	part of	wall
+'a woman dressed as an angel standing in front of a castle'	depicts	angel
+'a woman dressed as an angel standing in front of a castle'	depicts	castle
+'a woman dressed as an angel	depicts	castle
+slide	part of	bed
+bed	part of	room
+		
+storage underneath it	subclass of	bed
+storage underneath it	part of	bed
+storage	part of	bed
+table	part of	group
+table	subclass of	group
+table	part of	group of women
+camera	use	close up
+close up	uses	camera
+camera	subclass of	close up
+open book	subclass of	picture
+open book	has part	picture
+picture of a view of a lake	subclass of	open book
+table	part of	group
+table	subclass of	group
+table	part of	group of people
+cardigan	subclass of	sweater
+black cardigan	subclass of	sweater
+cardigan sweater	subclass of	black
+cabinets	part of	kitchen
+		
+kitchen	has parts of the class	cabinets
+boats	part of	water
+boat	uses	water
+boats	uses	water
+flower	part of	shower curtain
+shower curtain	has part	flowers
+'a shower curtain with pink flowers on it'	instance of	shower curtain
+white boots	has part	white
+		
+white boots on a white background	depicts	white
+wooden	subclass of	toy
+wooden toy	subclass of	toy
+wooden toy	has part	green frog
+chain	part of	purse
+gold	has part	silver
+silver purse	has part	chain
+computer	has part	desk
+desk	part of	computer
+computer	has part	desks
+sideboard	has parts of the class	drawers
+sideboard	has part	drawers
+sideboard	has parts of the class	drawers and drawers
+'a person holding a bunch of red balloons'	depicts	balloons
+'a person holding a bunch of red balloons'	main subject	red balloons
+'a person holding a bunch of red balloons'	depicts	red balloons
+bridge	part of	city
+bridge	crosses	city
+bridge	located in the administrative territorial entity	city
+cross	used by	priest
+crosses	used by	priest
+cross	practiced by	priest
+performing on stage	performer	band
+performing on stage	participant	band
+band	uses	stage
+bra	different from	panties
+bra	followed by	panties
+		
+'a couple of people that are standing in front of a sign'	depicts	sign
+'a couple of people that are standing in front of a sign'	instance of	sign
+sign	part of	sign
+spoon	part of	spoon
+spoon	part of	spoon in it
+		
+duck	uses	water
+		
+water	used by	duck
+'a man standing on top of a beach next to a grill'	depicts	beach
+'a man standing on top of a beach	depicts	beach
+'a man standing on top of a beach	instance of	beach
+pool	use	swimming
+lounge chair	part of	pool
+pool	different from	swimming pool
+bank sign	part of	building
+bank	has part	sign
+bank	subclass of	building
+zipper	part of	wallet
+wallet	has part	zipper
+zipper	use	wallet
+golf cart	has part	white
+golf cart	sport	golf
+		
+'an empty swimming pool surrounded by palm trees'	instance of	swimming pool
+'an empty swimming pool surrounded by palm trees'	instance of	pool
+An empty swimming pool	depicts	palm trees
+'a group of firefighters walking down a dirt road'	main subject	wildfire
+'a group of firefighters walking down a dirt road'	depicts	firefighters
+'a group of firefighters walking down a dirt road'	field of work	firefighting
+'a couple of men sitting on top of a red carpet'	main subject	red carpet
+Red carpet	part of	red carpet
+Red carpet	subclass of	red carpet
+red car	part of	building
+car	part of	building
+		
+different locations	subclass of	map
+locations	subclass of	map
+location	subclass of	map
+table	part of	group
+table	subclass of	group
+table	part of	group of people
+computer	has part	desk
+desk	part of	computer
+computer	has part	desks
+american flag	depicts	white arch
+american flag	depicts	white
+american flag	instance of	arch
+table	subclass of	machine
+table	part of	machine
+machine	uses	table
+zipper	part of	boot
+boot	has part	zipper
+black boot	has part	zipper
+staircase	part of	living room
+furniture	part of	living room
+living room	has parts of the class	furniture
+wall plate	has part	hole
+square hole	part of	wall plate
+wall plate	has part	square hole
+		
+		
+chainring	part of	bicycle
+electric razor	uses	paper
+razor	uses	electric
+electric razor	subclass of	paper
+'a purple dress on display in a room'	main subject	purple dress
+'a purple dress on display in a room'	depicts	purple dress
+dress	has part	purple
+window	part of	living room
+living room	has part	window
+window	subclass of	living room
+furniture	part of	living room
+living room	has parts of the class	furniture
+living room	has part	furniture
+track	used by	train
+		
+train	has part	track
+carpet	part of	bedroom
+rug	part of	bedroom
+carpet	subclass of	rug
+'a couple of women standing on top of a stage'	depicts	stage
+'a couple of women standing on top of a stage'	main subject	stage
+'a couple of women standing on top of a stage'	instance of	stage
+suit	has part	tie
+tie	subclass of	suit
+		
+black box	has part	green trims
+		
+box	has part	trims
+black metal	subclass of	metal
+bunk bed	has part	sheets
+black metal	subclass of	black metal
+Bibliothèque Nationale de France	location	Paris
+Bibliothèque Nationale de France	located in the administrative territorial entity	Paris
+Bibliothèque nationale de France	location	Paris
+'a black and white photo of xi jinping'	depicts	xi jinping
+xi jinping	instance of	photo
+photo of xi jinping	depicts	xi jinping
+'cutting onions podcast with bobby shaw celebrating culture that develops leaders'	presenter	bobby shaw
+Cutting onions podcast	presenter	bobby shaw
+'cutting onions podcast with bobby shaw	presenter	bobby shaw
+cell phone	subclass of	hand
+cell phone	use	hand
+cell phone	part of	hand
+camel	subclass of	outfit
+camel colored outfit	has part	hat
+camel	use	camel colored outfit
+football	practiced by	men
+football	subclass of	men playing a game of football
+men playing a game of football	sport	football
+'a black and white photo of a man sitting at a table'	instance of	photo
+black and white	subclass of	photo
+'a black and white photo	depicts	a man sitting at a table
+tablet computer	has part	white table
+tablet	subclass of	computer
+tablet computer	has part	table
+painting of flowers on a white background	depicts	white
+painting of flowers on a white background	depicts	white background
+painting of flowers on a white background	instance of	painting
+computer case	has part	white
+computer case	has part	white background
+		
+wind turbine	located in or next to body of water	ocean
+wind turbine	location	ocean
+wind turbine	uses	ocean
+John F. Kennedy School of Government	part of	Harvard University
+'a couple of men standing next to each other'	depicts	couple of men standing next to each other
+'a couple of men standing next to each other'	depicts	'a couple of men standing next to each other'
+shoe	has part	white
+shoes	has part	white
+black	opposite of	white
