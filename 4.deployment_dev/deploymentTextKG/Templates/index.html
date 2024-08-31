@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Knowledge Graph Generator</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+      :root {
+        --primary-color: #6c5ce7;
+        --secondary-color: #8e44ad;
+        --accent-color: #ffeaa7;
+        --text-color: #ecf0f1;
+        --background-color: #2c3e50;
+        --card-background: #34495e;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Poppins", sans-serif;
+        background-color: var(--background-color);
+        color: var(--text-color);
+        line-height: 1.6;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+      }
+
+      .container {
+        background-color: var(--card-background);
+        padding: 3rem;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        width: 100%;
+        max-width: 800px;
+        transform: translateY(20px);
+        opacity: 0;
+        animation: fadeIn 0.6s ease-out forwards;
+      }
+
+      @keyframes fadeIn {
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      h1 {
+        color: var(--primary-color);
+        text-align: center;
+        margin-bottom: 2rem;
+        font-weight: 600;
+        font-size: 2.5rem;
+        letter-spacing: -1px;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+
+      textarea {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 1.5rem;
+        border: 2px solid var(--secondary-color);
+        border-radius: 12px;
+        font-size: 1rem;
+        transition: all 0.3s ease;
+        font-family: "Poppins", sans-serif;
+        background-color: var(--background-color);
+        color: var(--text-color);
+      }
+
+      textarea:focus {
+        outline: none;
+        border-color: var(--primary-color);
+        box-shadow: 0 0 0 3px rgba(108, 92, 231, 0.1);
+      }
+
+      textarea {
+        min-height: 150px;
+        resize: vertical;
+      }
+
+      input[type="submit"] {
+        background-color: var(--primary-color);
+        color: white;
+        border: none;
+        padding: 14px 20px;
+        border-radius: 12px;
+        cursor: pointer;
+        font-size: 1.1rem;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      input[type="submit"]:hover {
+        background-color: var(--secondary-color);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .input-group {
+        position: relative;
+        margin-bottom: 1.5rem;
+      }
+
+      .input-group label {
+        position: absolute;
+        top: 0;
+        left: 12px;
+        font-size: 0.8rem;
+        color: var(--primary-color);
+        background-color: var(--card-background);
+        padding: 0 5px;
+        transform: translateY(-50%);
+      }
+
+      .visualization-options {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+      }
+
+      .visualization-option {
+        flex-basis: 30%;
+        background-color: var(--background-color);
+        border-radius: 12px;
+        padding: 1rem;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+
+      .visualization-option:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      }
+
+      .visualization-option svg {
+        width: 100%;
+        height: 120px;
+        margin-bottom: 1rem;
+      }
+
+      .visualization-option input[type="radio"] {
+        display: none;
+      }
+
+      .visualization-option label {
+        color: var(--text-color);
+        font-weight: 600;
+      }
+
+      .visualization-option input[type="radio"]:checked + label {
+        color: var(--primary-color);
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          padding: 2rem;
+        }
+
+        h1 {
+          font-size: 2rem;
+        }
+
+        .visualization-options {
+          flex-direction: column;
+        }
+
+        .visualization-option {
+          margin-bottom: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Knowledge Graph Generator</h1>
+      <form method="POST">
+        <div class="input-group">
+          <label for="text">Enter your text</label>
+          <textarea
+            id="text"
+            name="text"
+            placeholder="Start typing..."
+          ></textarea>
+        </div>
+        <div class="visualization-options">
+          <div class="visualization-option">
+            <input
+              type="radio"
+              id="networkx"
+              name="visualization"
+              value="networkx"
+              checked
+            />
+            <label for="networkx">
+              <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <circle
+                  cx="50"
+                  cy="50"
+                  r="45"
+                  fill="none"
+                  stroke="#6c5ce7"
+                  stroke-width="2"
+                />
+                <circle cx="30" cy="30" r="5" fill="#6c5ce7" />
+                <circle cx="70" cy="30" r="5" fill="#6c5ce7" />
+                <circle cx="50" cy="70" r="5" fill="#6c5ce7" />
+                <line
+                  x1="30"
+                  y1="30"
+                  x2="70"
+                  y2="30"
+                  stroke="#6c5ce7"
+                  stroke-width="2"
+                />
+                <line
+                  x1="30"
+                  y1="30"
+                  x2="50"
+                  y2="70"
+                  stroke="#6c5ce7"
+                  stroke-width="2"
+                />
+                <line
+                  x1="70"
+                  y1="30"
+                  x2="50"
+                  y2="70"
+                  stroke="#6c5ce7"
+                  stroke-width="2"
+                />
+              </svg>
+              NetworkX
+            </label>
+          </div>
+          <div class="visualization-option">
+            <input
+              type="radio"
+              id="plotly"
+              name="visualization"
+              value="plotly"
+            />
+            <label for="plotly">
+              <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <rect
+                  x="10"
+                  y="10"
+                  width="80"
+                  height="80"
+                  fill="none"
+                  stroke="#6c5ce7"
+                  stroke-width="2"
+                />
+                <polyline
+                  points="10,90 30,50 50,70 70,30 90,10"
+                  fill="none"
+                  stroke="#6c5ce7"
+                  stroke-width="2"
+                />
+                <circle cx="30" cy="50" r="3" fill="#6c5ce7" />
+                <circle cx="50" cy="70" r="3" fill="#6c5ce7" />
+                <circle cx="70" cy="30" r="3" fill="#6c5ce7" />
+              </svg>
+              Plotly
+            </label>
+          </div>
+          <div class="visualization-option">
+            <input
+              type="radio"
+              id="graphviz"
+              name="visualization"
+              value="graphviz"
+            />
+            <label for="graphviz">
+              <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="50" cy="20" r="10" fill="#6c5ce7" />
+                <circle cx="20" cy="80" r="10" fill="#6c5ce7" />
+                <circle cx="80" cy="80" r="10" fill="#6c5ce7" />
+                <line
+                  x1="50"
+                  y1="30"
+                  x2="24"
+                  y2="71"
+                  stroke="#6c5ce7"
+                  stroke-width="2"
+                />
+                <line
+                  x1="50"
+                  y1="30"
+                  x2="76"
+                  y2="71"
+                  stroke="#6c5ce7"
+                  stroke-width="2"
+                />
+                <line
+                  x1="30"
+                  y1="80"
+                  x2="70"
+                  y2="80"
+                  stroke="#6c5ce7"
+                  stroke-width="2"
+                />
+              </svg>
+              Graphviz
+            </label>
+          </div>
+        </div>
+        <input type="submit" value="Generate Graph" />
+      </form>
+    </div>
+  </body>
+</html>

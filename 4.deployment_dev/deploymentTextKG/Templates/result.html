@@ -1,0 +1,226 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Knowledge Graph Result</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f8ff;
+        color: #333;
+        line-height: 1.6;
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      h1,
+      h2 {
+        color: #1e90ff;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+      }
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #1e90ff;
+        color: white;
+      }
+      img,
+      #plotly-graph,
+      #graphviz-graph {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 20px 0;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      a {
+        display: inline-block;
+        background-color: #1e90ff;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 4px;
+        margin-top: 20px;
+      }
+      a:hover {
+        background-color: #187bcd;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Knowledge Graph Result</h1>
+    <h2>Relations:</h2>
+    <table>
+      <tr>
+        <th>Head</th>
+        <th>Relation</th>
+        <th>Tail</th>
+      </tr>
+      {% for relation in relations %}
+      <tr>
+        <td>{{ relation.head }}</td>
+        <td>{{ relation.type }}</td>
+        <td>{{ relation.tail }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+    <h2>Graph Visualization ({{ method }}):</h2>
+    {% if method == 'networkx' %}
+    <img src="{{ graph_image }}" alt="Knowledge Graph" />
+    {% elif method == 'plotly' %}
+    <div id="plotly-graph"></div>
+    <script>
+      var graphJSON = {{ graph_image | safe }};
+      Plotly.plot('plotly-graph', graphJSON.data, graphJSON.layout);
+    </script>
+    {% elif method == 'graphviz' %}
+    <div id="graphviz-graph">{{ graph_image | safe }}</div>
+    {% endif %}
+    <a href="/">Generate Another Graph</a>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Knowledge Graph Result</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://unpkg.com/@hpcc-js/wasm@1.4.4/dist/index.min.js"></script>
+    <script src="https://unpkg.com/d3-graphviz@3.1.0/build/d3-graphviz.min.js"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+      :root {
+        --primary-color: #6c5ce7;
+        --secondary-color: #8e44ad;
+        --accent-color: #ffeaa7;
+        --text-color: #ecf0f1;
+        --background-color: #2c3e50;
+        --card-background: #34495e;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Poppins", sans-serif;
+        background-color: var(--background-color);
+        color: var(--text-color);
+        line-height: 1.6;
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      h1,
+      h2 {
+        color: #ecf0f1;
+        margin-bottom: 1.5rem;
+        text-align: center;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        background-color: var(--card-background);
+      }
+
+      th,
+      td {
+        border: 1px solid #444;
+        padding: 12px;
+        text-align: left;
+        font-size: 1rem;
+      }
+
+      th {
+        background-color: var(--primary-color);
+        color: var(--text-color);
+        font-weight: 600;
+      }
+
+      #plotly-graph,
+      #graphviz-graph {
+        width: 100%;
+        height: 600px; /* Adjust height as needed */
+        margin: 20px 0;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        border-radius: 12px;
+      }
+
+      a {
+        display: inline-block;
+        background-color: var(--primary-color);
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 4px;
+        margin-top: 20px;
+        text-align: center;
+        transition: all 0.3s ease;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      a:hover {
+        background-color: var(--secondary-color);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Knowledge Graph Result</h1>
+    <h2>Relations:</h2>
+    <table>
+      <tr>
+        <th>Head</th>
+        <th>Relation</th>
+        <th>Tail</th>
+      </tr>
+      {% for relation in relations %}
+      <tr>
+        <td>{{ relation.head }}</td>
+        <td>{{ relation.type }}</td>
+        <td>{{ relation.tail }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+    <h2>Graph Visualization ({{ method }}):</h2>
+    {% if method == 'networkx' %}
+    <div id="graphviz-graph"></div>
+    <script>
+      // Rendering the Graphviz graph interactively
+      d3.select("#graphviz-graph")
+        .graphviz()
+        .renderDot(`{{ graph_image | safe }}`);
+    </script>
+    {% elif method == 'plotly' %}
+    <div id="plotly-graph"></div>
+    <script>
+      // Rendering the Plotly graph interactively
+      var graphJSON = {{ graph_image | safe }};
+      Plotly.newPlot("plotly-graph", graphJSON.data, graphJSON.layout);
+    </script>
+    {% endif %}
+    <a href="/">Generate Another Graph</a>
+  </body>
+</html>
