@@ -136,3 +136,17 @@ Clone the repository and install the required dependencies:
 git clone https://github.com/dsgiitr/kge-clip.git
 cd kge-clip
 pip install -r requirements.txt
+```
+
+### Contributions
+
+We welcome contributions to improve this project! To contribute:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Commit your changes with clear and descriptive messages.
+4. Push the changes to your fork and submit a pull request.
+
+>[!IMPORTANT]
+>Please ensure your contributions align with the project's coding standards and include relevant documentation or tests. For major changes, consider opening an issue to discuss your approach first.
+
