@@ -3,10 +3,15 @@
 ![Knowledge Graph](https://github.com/AGAMPANDEYY/kge-clip-fork1/blob/main/media/KG_1.png)
 
 
-## Introduction
-In the evolving landscape of machine learning, moving from traditional vector-based representations to more intricate graph structures marks a significant shift. **Knowledge Graph Embeddings (KGE)** provide a powerful way to represent relationships between entities, surpassing the limitations of static vectors. These embeddings are critical for tasks like entity linking, relationship extraction, and semantic search where understanding the context is crucial.
+# The detailed documentation of the KGE Project can be found at the [Gitbook Link](https://agam-pandey.gitbook.io/knowledge-graph-embedding-or-dsg-iitr/)
 
-This project delves into **Knowledge Graph Embeddings** and introduces **Graph-RAG**, a cutting-edge method that leverages these embeddings to enable more nuanced reasoning and retrieval across graph databases.
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/03bc07b6-be37-4b61-9316-a6f8613e66d1" width="800" height="600"/>
+</div>
+
+In machine learning, the shift from traditional vectors to graph-based structures is transformative. Knowledge Graph Embeddings (KGE) offer a powerful way to represent relationships between entities, enhancing tasks like entity linking, relationship extraction, and semantic search.
+
+This project explores KGE and introduces Graph-RAG, a method that enhances reasoning and retrieval in graph databases.
 
 ### Project Highlights
 - Explore **traditional vector embeddings** and their limitations.
@@ -20,22 +25,15 @@ This project delves into **Knowledge Graph Embeddings** and introduces **Graph-R
   This repository contains the code, models, and resources related to the exploration of Knowledge Graph Embeddings (KGE) and traditional vector embeddings for text and image data.
 
 ### Directory Structure
+    .
+    ├── 1_Traditional_Vector_Embeddings   # Traditional text and image embeddings using Word2Vec and CLIP
+    ├── 2_Knowledge_Graphs                # Code and resources for generating Knowledge Graphs and extracting triplets
+    ├── 3_KG_Embeddings                   # Knowledge Graph Embeddings (KGE) training using PyKeen and dimensionality reduction
+    ├── 4_Deployment_dev                  # Scripts for deploying and testing embedding models
+    ├── 6_FAISS_embeddings                # FAISS-based search for efficient embedding retrieval and comparisons
+    └── README.md                         # Project documentation
 
-1. 📊 **Traditional Vector Embeddings**:  
-Traditional text and image embeddings using models like Word2Vec and CLIP.
-
-2. 🧠 **Knowledge Graphs**:  
-Code and resources for generating Knowledge Graphs and extracting triplets.
-
-3. 🔗 **KG_Embeddings**:  
-Training Knowledge Graph Embeddings (KGE) with PyKeen and dimensionality reduction techniques.
-
-4. 🚀 **Deployment_dev**:  
-Scripts for deploying and testing embedding models in development environments.
-
-5. 🔍 **FAISS_embeddings**:  
-FAISS-based search for efficient embedding retrieval and comparisons.
-
+> Follow the directories to get src, assets for image and text datasets
 
 ### Additional Directories
 
@@ -48,32 +46,13 @@ FAISS-based search for efficient embedding retrieval and comparisons.
 - 📑 **/notebooks**:  
   Jupyter notebooks for visualizing and comparing traditional vector embeddings (Word2Vec, CLIP) and Knowledge Graph Embeddings. These notebooks guide you through the results and offer insights into the differences between embedding approaches.
 
-  
-## Traditional Vector Embeddings
 
-### What are Vector Embeddings?
-Transformer-based models like **BERT**, **GPT**, and **T5** leverage self-attention mechanisms to process text and generate context-specific embeddings. In this project, we explore these embeddings using **Word2Vec** for text and **CLIP** for image embeddings.
+## Setup Guide and Results
 
-### Image Embeddings with CLIP
-- **Process**: Images are represented as tensors, processed by the pre-trained CLIP model to generate compact 1D vectors.
-- **Dimensionality Reduction**: Embeddings are reduced to 3D using **t-SNE** for visual analysis.
-  
-We analyze embeddings to understand how image representations compare to text in tasks like image search, captioning, and cross-modal analysis.
-
-## The Traditional Embeddings Problem
-Traditional embeddings often lack the ability to capture complex, multi-modal relationships between images and text. For example, embeddings of semantically similar data, such as fitness equipment and home decor, can be erroneously clustered with unrelated objects due to vector space limitations.
-
-### The Solution: Knowledge Graph Embeddings (KGE)
-By representing relationships in a **Knowledge Graph**, we move beyond isolated vectors. KGEs allow us to model deeper, more meaningful connections between entities and their contexts, which enhances tasks like **information retrieval** and **recommendations** in **LLMs**.
-
-## Knowledge Graph Generation
-
-### What is Graph Representation?
-We use **Relationformer**, an encoder-decoder architecture trained on the **Visual Genome dataset**, to generate scene graphs from images. This approach captures object and relationship tokens for tasks like object detection and relation prediction.
-
-### KG Embeddings with PyKeen
-We utilized the **PyKeen** library to create and train **TransE** models for Knowledge Graph embeddings. Both image and text triplets were processed to generate embeddings.
-
+1. [Refer to the Readme for more details on Traditional Vector Embeddings](https://github.com/dsgiitr/kge-clip/blob/main/1.Traditional_Vector_Embeddings/Readme.md)
+2. [Refer to the Readme for more detail on Knowledge Graphs](https://github.com/dsgiitr/kge-clip/tree/main/2.Knowledge_Graphs)
+3. [Refer to the Readme for more detail on KG_Embeddings](https://github.com/dsgiitr/kge-clip/tree/main/3.KG_Embeddings)
+4. [Check out the development_dev for accesing the visualiser App]()
 #### Training Setup
 - Model: **TransE**
 - Loss: **Softplus**
