@@ -6,8 +6,9 @@
 ## The detailed documentation of the KGE Project can be found at the [Gitbook Link](https://agam-pandey.gitbook.io/knowledge-graph-embedding-or-dsg-iitr/)
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/03bc07b6-be37-4b61-9316-a6f8613e66d1" width="700" height="500"/>
+  <img src="https://github.com/user-attachments/assets/02b2dab2-f1ba-4abe-a13a-ccb0b3791bb0" width="700" height="500"/>
 </div>
+
 
 
 ### Project Highlights
