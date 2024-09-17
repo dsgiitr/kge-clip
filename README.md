@@ -9,9 +9,6 @@
   <img src="https://github.com/user-attachments/assets/03bc07b6-be37-4b61-9316-a6f8613e66d1" width="700" height="500"/>
 </div>
 
-In machine learning, the shift from traditional vectors to graph-based structures is transformative. Knowledge Graph Embeddings (KGE) offer a powerful way to represent relationships between entities, enhancing tasks like entity linking, relationship extraction, and semantic search.
-
-This project explores KGE and introduces Graph-RAG, a method that enhances reasoning and retrieval in graph databases.
 
 ### Project Highlights
 - Explore **traditional vector embeddings** and their limitations.
