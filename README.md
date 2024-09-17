@@ -3,10 +3,10 @@
 ![Knowledge Graph](https://github.com/AGAMPANDEYY/kge-clip-fork1/blob/main/media/KG_1.png)
 
 
-# The detailed documentation of the KGE Project can be found at the [Gitbook Link](https://agam-pandey.gitbook.io/knowledge-graph-embedding-or-dsg-iitr/)
+## The detailed documentation of the KGE Project can be found at the [Gitbook Link](https://agam-pandey.gitbook.io/knowledge-graph-embedding-or-dsg-iitr/)
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/03bc07b6-be37-4b61-9316-a6f8613e66d1" width="800" height="600"/>
+  <img src="https://github.com/user-attachments/assets/03bc07b6-be37-4b61-9316-a6f8613e66d1" width="700" height="500"/>
 </div>
 
 In machine learning, the shift from traditional vectors to graph-based structures is transformative. Knowledge Graph Embeddings (KGE) offer a powerful way to represent relationships between entities, enhancing tasks like entity linking, relationship extraction, and semantic search.
