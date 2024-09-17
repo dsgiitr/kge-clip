@@ -18,11 +18,6 @@ This project explores KGE and introduces Graph-RAG, a method that enhances reaso
 - Discover how **CLIP** is used for image-text embeddings.
 - Learn how **KGE** solves traditional embedding problems with a relational, graph-based approach.
 - Experiment with **Graph-RAG** to improve reasoning and retrieval in **LLMs**.
-  
-## Repository Overview
-
-- 📁 **[Repository Link](https://github.com/dsgiitr/kge-clip.git)**
-  This repository contains the code, models, and resources related to the exploration of Knowledge Graph Embeddings (KGE) and traditional vector embeddings for text and image data.
 
 ### Directory Structure
     .
@@ -37,14 +32,14 @@ This project explores KGE and introduces Graph-RAG, a method that enhances reaso
 
 ### Additional Directories
 
-- 📂 **/src**:  
-  The core code for training Knowledge Graph Embeddings (KGE) using the PyKeen framework. This folder includes model training scripts, configurations, and utilities for data processing.
-
-- 📂 **/assets**:  
-  A collection of embedding result files, visualizations, and other assets generated during the project. This directory contains key outputs from the embedding models, including reduced-dimensionality visualizations.
-
-- 📑 **/notebooks**:  
-  Jupyter notebooks for visualizing and comparing traditional vector embeddings (Word2Vec, CLIP) and Knowledge Graph Embeddings. These notebooks guide you through the results and offer insights into the differences between embedding approaches.
+> 📂 **/src**:  
+> Core code for training Knowledge Graph Embeddings (KGE) using PyKeen, including scripts, configs, and data utilities.
+>
+> 📂 **/assets**:  
+> Contains embedding results, visualizations, and key outputs from the models.
+>
+> 📑 **/notebooks**:  
+> Jupyter notebooks for visualizing and comparing traditional and Knowledge Graph Embeddings (KGE).
 
 
 ## Setup Guide and Results
