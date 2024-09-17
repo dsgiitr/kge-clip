@@ -41,25 +41,74 @@
 
 ## Setup Guide and Results
 
-1. [Refer to the Readme for more details on Traditional Vector Embeddings](https://github.com/dsgiitr/kge-clip/blob/main/1.Traditional_Vector_Embeddings/Readme.md)
-2. [Refer to the Readme for more detail on Knowledge Graphs](https://github.com/dsgiitr/kge-clip/tree/main/2.Knowledge_Graphs)
-3. [Refer to the Readme for more detail on KG_Embeddings](https://github.com/dsgiitr/kge-clip/tree/main/3.KG_Embeddings)
-4. [Check out the development_dev for accesing the visualiser App]()
-#### Training Setup
+### 1. Access the dataset
+- The dataset of 1k reduced COYO700M dataset can be found [Here](https://www.kaggle.com/datasets/anantjain1223/coyo-1k-reduced)
+### 2. Creating Traditional Vector Embeddings 
+
+4 Methods were used to create text embeddings and 1 CLIP notebook can be accessed for Image embeddings.
+
+1. [CLIP Embeddings](https://github.com/dsgiitr/kge-clip/blob/main/1.Traditional_Vector_Embeddings/1.Text/embedding_models/clip_text.ipynb)
+2. [InferSent Embeddings](https://github.com/dsgiitr/kge-clip/blob/main/1.Traditional_Vector_Embeddings/1.Text/embedding_models/infersent.ipynb)
+3. [Universal Sentence Encoder](https://github.com/dsgiitr/kge-clip/blob/main/1.Traditional_Vector_Embeddings/1.Text/embedding_models/universal-sentence-encoder.ipynb)
+4. [Bert](https://github.com/dsgiitr/kge-clip/blob/main/1.Traditional_Vector_Embeddings/1.Text/embedding_models/bert.ipynb)
+5. [CLIP for Image Embeddings](https://github.com/dsgiitr/kge-clip/blob/main/1.Traditional_Vector_Embeddings/2.Images/embeddings_model/clip_vector_embeddings.ipynb)
+
+| Step | Description |
+|------|-------------|
+| 1    | Open the eg.`CLIP_Embeddings.ipynb` notebook. |
+| 2    | Run all the cells to load the CLIP model and generate embeddings. |
+| 3    | Follow the instructions in the notebook to input your data and obtain embeddings. |
+
+
+#### Requirements
+
+- Python 3.x
+- Required libraries (list them here)
+
+#### How to Install
+
+1. Clone the repository.
+      ```bash
+   git clone https://github.com/dsgiitr/kge-clip.git
+   cd 1.Traditional_Vector_Embeddings
+2. Install the required libraries using `pip install -r requirements.txt`.
+3. Open the Jupyter notebooks and follow the instructions.
+   
+> [!TIP]
+> [Refer to the Readme for more details on Traditional Vector Embeddings](https://github.com/dsgiitr/kge-clip/blob/main/1.Traditional_Vector_Embeddings/Readme.md)
+### 3. Embeddings Visualization in 3D
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/d05f9f65-e2d2-42fb-9499-4357123094a8" width="800" height="300"/>
+</div>
+
+To visualize text and image embeddings, use the following notebooks:
+
+1. [Text Embeddings Visualizer](https://github.com/dsgiitr/kge-clip/blob/main/1.Traditional_Vector_Embeddings/1.Text/embeddings_visualisation/plotting_tensorboard.ipynb)
+2. [Image Embeddings Visualizer](https://github.com/dsgiitr/kge-clip/blob/main/1.Traditional_Vector_Embeddings/2.Images/embeddings_visualisation/CLIP_Tensorboard_.ipynb)
+
+Each embedding and cluster will be saved in `metadata.tsv`.
+
+To launch TensorBoard, use:
+
+```bash
+%tensorboard --logdir /path/to/logs/embedding
+```
+
+### 4. Generating Knowledge Graphs
+>[!TIP]
+>[Refer to the Readme for more detail on Knowledge Graphs](https://github.com/dsgiitr/kge-clip/tree/main/2.Knowledge_Graphs)
+### 5. Training Setup for PyKeen Knowledge Graph Embeddings
 - Model: **TransE**
 - Loss: **Softplus**
 - Epochs: **100**
 - Dataset: Triplets extracted from images and text using **REBEL** and **COYO Subset dataset**.
+>[!TIP]
+>[Refer to the Readme for more detail on KG_Embeddings](https://github.com/dsgiitr/kge-clip/tree/main/3.KG_Embeddings)
+### 6. Storing Embeddings in FAISS index
 
-### Image and Text KG Embeddings
-- **Image Triplets**: Extracted using REBEL from image URLs.
-  - [Dataset Link](https://www.kaggle.com/datasets/agampy/triplets-kg)
-- **Text Triplets**: Extracted using REBEL-large.
-  - [Dataset Link](https://www.kaggle.com/datasets/agampy/text-triplets1k)
+### 7. Running the visualiser web-app
 
-For detailed code and model configurations, refer to our notebooks:
-- [PyKeen for Image KG Embeddings](https://github.com/dsgiitr/kge-clip/blob/main/3.KG_Embeddings/src/pykeen_KGE.ipynb)
-- [PyKeen for Text KG Embeddings](https://github.com/dsgiitr/kge-clip/blob/main/3.KG_Embeddings/src/pykeen_KGE_text.ipynb)
 
 ## Results and Comparisons
 
