@@ -21,20 +21,21 @@ This project delves into **Knowledge Graph Embeddings** and introduces **Graph-R
 
 ### Directory Structure
 
-- 📊 **/1. Traditional Vector Embeddings**:  
-  Contains implementations and results related to traditional text and image embeddings using models like Word2Vec and CLIP. Useful for understanding baseline performance in comparison to Knowledge Graph Embeddings.
+1. 📊 **Traditional Vector Embeddings**:  
+Traditional text and image embeddings using models like Word2Vec and CLIP.
 
-- 🧠 **/2. Knowledge Graphs**:  
-  Contains code and resources for generating and working with Knowledge Graphs. Includes extracted triplets and graph-based representations for both text and image data.
+2. 🧠 **Knowledge Graphs**:  
+Code and resources for generating Knowledge Graphs and extracting triplets.
 
-- 🔗 **/3. KG_Embeddings**:  
-  Focuses on training and evaluating Knowledge Graph Embeddings (KGE) using the PyKeen library. This includes configurations for different models (like TransE), loss functions, and dimensionality reduction techniques like PCA, UMAP, and t-SNE.
+3. 🔗 **KG_Embeddings**:  
+Training Knowledge Graph Embeddings (KGE) with PyKeen and dimensionality reduction techniques.
 
-- 🚀 **/4. Deployment_dev**:  
-  Code related to deployment and testing of models in a development environment. Contains scripts and configurations to set up and deploy embedding models in a production or testing environment.
+4. 🚀 **Deployment_dev**:  
+Scripts for deploying and testing embedding models in development environments.
 
-- 🔍 **/6. FAISS_embeddings**:  
-  Includes FAISS-based nearest neighbor search for efficiently comparing and retrieving embeddings. FAISS is used here to index and search embeddings for large-scale similarity comparisons between text and image data.
+5. 🔍 **FAISS_embeddings**:  
+FAISS-based search for efficient embedding retrieval and comparisons.
+
 
 ### Additional Directories
 
