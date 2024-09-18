@@ -326,11 +326,11 @@ The results were divied into
 ### Core Contributors
 The list of core contributors to this repository are (mentioned alphabetically):
 
-[Aastha Khaitan](https://github.com/AK1405)
-[Advika Sinha](https://github.com/advikasinha)
-[Agam Pandey](https://github.com/AGAMPANDEYY)
-[Anant Jain](https://github.com/anant37289)
-[Simardeep Singh](https://github.com/heyysimarr)
+- [Aastha Khaitan](https://github.com/AK1405)
+- [Advika Sinha](https://github.com/advikasinha)
+- [Agam Pandey](https://github.com/AGAMPANDEYY)
+- [Anant Jain](https://github.com/anant37289)
+- [Simardeep Singh](https://github.com/heyysimarr)
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
