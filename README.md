@@ -97,6 +97,34 @@ To launch TensorBoard, use:
 ```
 
 ### 4. Generating Knowledge Graphs
+
+### Running the Neo4J Instance and Plotting Knowledge Graphs
+
+Knowledge graphs were generated using the following steps:
+
+1. **Triplet Extraction**  
+   Run the `Rebel_extraction.ipynb` notebook to extract triplets using the [BabelScape REBEL-large](https://huggingface.co/Babelscape/rebel-large) model. You can find the notebook [here](https://github.com/dsgiitr/kge-clip/blob/main/2.Knowledge_Graphs/1.Text/codes/101-125/rebel.ipynb).
+
+2. **Knowledge Graph Generation and Visualization**  
+   Use the `KG.ipynb` notebook to generate knowledge graphs and visualize them using Neo4J, NetworkX, and Plotly. Access the notebook [here](https://github.com/dsgiitr/kge-clip/blob/main/2.Knowledge_Graphs/1.Text/codes/101-125/kg.ipynb).
+
+<div align="center">
+<img src= "https://github.com/user-attachments/assets/dc98c06f-702e-455f-925e-2b490dfa236b" width= 600 height=250/>
+</div>
+
+
+#### Running Neo4J Database Instance
+
+To run a local Neo4J instance and visualize the knowledge graph:
+
+1. **Install Neo4J**  
+   Download and install Neo4J from the [official site](https://neo4j.com/download/).
+
+2. **Start Neo4J**  
+   After installation, start the Neo4J server:
+   ```bash
+   neo4j console
+
 >[!TIP]
 >[Refer to the Readme for more detail on Knowledge Graphs](https://github.com/dsgiitr/kge-clip/tree/main/2.Knowledge_Graphs)
 ### 5. Training Setup for PyKeen Knowledge Graph Embeddings
