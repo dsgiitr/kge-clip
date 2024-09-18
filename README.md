@@ -310,14 +310,31 @@ Open your web browser and navigate to `http://127.0.0.1:5000/` to start using th
 
 ## Results and Comparisons
 
-### Comparison with Traditional Vector Embeddings
-We compared traditional vector embeddings (Word2Vec, CLIP) with KGE across text and images. By reducing embeddings to 3D space using **PCA**, **UMAP**, and **t-SNE**, we explored how different embeddings capture context from the dataset. Results were visualized in **TensorBoard** to better understand vector representation across different models.
+>[!NOTE]
+> Detailed result and descriptions are explained in the [DSG Gitbook](https://agam-pandey.gitbook.io/knowledge-graph-embedding-or-dsg-iitr/the-traditional-embeddings-problem)
 
-- 📂 **Results Folder**: Find the embedding result files [here](3.KG_Embeddings/assets/results/reduced_embeddings).
+The results were divied into 
+
+1. Traditional Vector embeddings 3D Reduced visualisation using Tensorboard. [📂 **Results Folder**]( https://github.com/dsgiitr/kge-clip/blob/main/1.Traditional_Vector_Embeddings/1.Text/embeddings_visualisation/plotting_tensorboard.ipynb)
+2. Similarity scores of reduced embeddings of different Text encoder.  [📂 **Results Folder**](https://github.com/dsgiitr/kge-clip/tree/main/1.Traditional_Vector_Embeddings/3.Embedding_Scores)
+3. Comparing image and text vector embeddings disparity and contextual drawbacks.  [📂 **Results Folder**](https://agam-pandey.gitbook.io/knowledge-graph-embedding-or-dsg-iitr/the-traditional-embeddings-problem)
+4. Scene Graph Generation of {text:image} pair using VLM & Relationformer.  [📂 **Results Folder**](https://github.com/dsgiitr/kge-clip/blob/main/2.Knowledge_Graphs/2.Images/code/2.%20Relationformer.ipynb) 
+5. KG Visualisation with Neo4j, NetworkX, Plotly and Graphviz.  [📂 **Results Folder**](https://github.com/dsgiitr/kge-clip/tree/main/2.Knowledge_Graphs/1.Text/visualisation/KG_Visualisation151-200)
+6. KG and traditional vector Embeddings .csv  [📂 **Results Folder**](https://github.com/dsgiitr/kge-clip/tree/main/3.KG_Embeddings/assets/results)
+---------------------------------------------------------------------------------------------------------------------------------------
+
+### Core Contributors
+The list of core contributors to this repository are (mentioned alphabetically):
+
+[Aastha Khaitan](https://github.com/AK1405)
+[Advika Sinha](https://github.com/advikasinha)
+[Agam Pandey](https://github.com/AGAMPANDEYY)
+[Anant Jain](https://github.com/anant37289)
+[Simardeep Singh](https://github.com/heyysimarr)
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-### Contributions
+### Contributions 🚀
 
 We welcome contributions to improve this project! To contribute:
 
