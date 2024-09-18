@@ -44,6 +44,10 @@
 
 ### 1. Access the dataset
 - The dataset of 1k reduced COYO700M dataset can be found [Here](https://www.kaggle.com/datasets/anantjain1223/coyo-1k-reduced)
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+  
 ### 2. Creating Traditional Vector Embeddings 
 
 4 Methods were used to create text embeddings and 1 CLIP notebook can be accessed for Image embeddings.
@@ -77,6 +81,10 @@
    
 > [!TIP]
 > [Refer to the Readme for more details on Traditional Vector Embeddings](https://github.com/dsgiitr/kge-clip/blob/main/1.Traditional_Vector_Embeddings/Readme.md)
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
 ### 3. Embeddings Visualization in 3D
 
 <div align="center">
@@ -96,11 +104,11 @@ To launch TensorBoard, use:
 %tensorboard --logdir /path/to/logs/embedding
 ```
 
+----------------------------------------------------------------------------------------------------------------------------------------
+
 ### 4. Generating Knowledge Graphs
 
-### Running the Neo4J Instance and Plotting Knowledge Graphs
-
-Knowledge graphs were generated using the following steps:
+Knowledge graphs foe both `{text:image}` pairs were generated using the following steps:
 
 1. **Triplet Extraction**  
    Run the `Rebel_extraction.ipynb` notebook to extract triplets using the [BabelScape REBEL-large](https://huggingface.co/Babelscape/rebel-large) model. You can find the notebook [here](https://github.com/dsgiitr/kge-clip/blob/main/2.Knowledge_Graphs/1.Text/codes/101-125/rebel.ipynb).
@@ -121,23 +129,184 @@ To run a local Neo4J instance and visualize the knowledge graph:
    Download and install Neo4J from the [official site](https://neo4j.com/download/).
 
 2. **Start Neo4J**  
-   After installation, start the Neo4J server:
-   ```bash
-   neo4j console
+Run the following code snippet to set up a Neo4J database remotely after setting up an account.
 
+```python
+from neo4j import GraphDatabase
+
+# Connect to Neo4j
+uri = "neo4j+s://647567ec.databases.neo4j.io"  # Replace with your Neo4j instance URI
+username = "neo4j"
+password = "mnx05CnETPwiMvSG7vQBZQwvJLz951fKhX-3zDfNVQg"  # Replace with your Neo4j password
+driver = GraphDatabase.driver(uri, auth=(username,password))
+
+def create_nodes_and_relationships(tx, head, type_, tail):
+    query = (
+        "MERGE (a:head {name: $head}) "
+        "MERGE (b: tail {name: $tail}) "
+        "MERGE (a)-[r : Relation {type: $type}]->(b)"
+    )
+    tx.run(query, head=head, type=type_, tail=tail)
+
+#df_rebel_text=df_rebel['triplet'].tolist()
+# Open a session and add data
+with driver.session() as session:
+    for row in triplets:
+        session.write_transaction(create_nodes_and_relationships, row['head'], row['type'], row['tail'])
+
+print("Knowledge graph created successfully!")
+
+driver.close()
+```
+4. Run the following CyPhwer query on Neo4J Database instance:
+```bash
+MATCH (n)-[r]->(m)
+RETURN n, r, m
+```
 >[!TIP]
 >[Refer to the Readme for more detail on Knowledge Graphs](https://github.com/dsgiitr/kge-clip/tree/main/2.Knowledge_Graphs)
-### 5. Training Setup for PyKeen Knowledge Graph Embeddings
-- Model: **TransE**
-- Loss: **Softplus**
-- Epochs: **100**
-- Dataset: Triplets extracted from images and text using **REBEL** and **COYO Subset dataset**.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+### 5. PyKeen Knowledge Graph Embedding Training
+
+The PyKeen model is trained on Text and Image KG triplets extracted using `Babelscape REBEL-large`.
+
+- Access the text KGE notebook: [`pykeen_KGE_text.ipynb`](https://github.com/dsgiitr/kge-clip/blob/main/3.KG_Embeddings/src/pykeen_KGE_text.ipynb)
+- Access the image KGE notebook: [`pykeen_KGE_Image.ipynb`](https://github.com/dsgiitr/kge-clip/blob/main/3.KG_Embeddings/src/pykeen_KGE_Image.ipynb)
+
+#### PyKeen Model Configuration
+
+```python
+from pykeen.pipeline import pipeline
+
+result = pipeline(
+    model='TransE',  # Choose a graph embedding technique
+    loss="softplus",
+    training=training_triples_factory,
+    testing=testing_triples_factory,
+    model_kwargs=dict(embedding_dim=3),  # Set embedding dimensions
+    optimizer_kwargs=dict(lr=0.1),  # Set learning rate
+    training_kwargs=dict(num_epochs=100, use_tqdm_batch=False),  # Set number of epochs
+)
+```
+
+
+The trained KGE for both text and Image are further reduced to 3D space using PCA/UMAP & t-SNE.
+Result embeddings and media can be found in the `assets` folder [here](https://github.com/dsgiitr/kge-clip/tree/main/3.KG_Embeddings/assets/results)
+
+
 >[!TIP]
 >[Refer to the Readme for more detail on KG_Embeddings](https://github.com/dsgiitr/kge-clip/tree/main/3.KG_Embeddings)
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
 ### 6. Storing Embeddings in FAISS index
 
-### 7. Running the visualiser web-app
+FAISS database was used to store the `{text:image}` Vector and Knowledge Graph embeddings for using it further with RAG-LLMs
 
+Access the FAISS index notebook [here](https://github.com/dsgiitr/kge-clip/blob/main/6.FAISS-embeddings/src/FAISS_Embeddings.ipynb)
+Set the dimensions as per what the LLM model needs.
+
+```python
+import faiss
+
+dimension=512
+index=faiss.IndexFlatL2(dimension)
+
+index.add(embeddings_img_array) #add the img embedding in faiss
+index.add(embeddings_text_array) # add text embedding in faiss
+
+faiss.write_index(index, 'faiss_traditional_vector_embedding.index')
+```
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+### 7. Running the KG visualiser web-app
+
+This repository contains a Flask-based web app that supports:
+
+- **Text-Based Knowledge Graph Generation**
+- **Image-Based Knowledge Graph Generation**
+- **Text & Image Vector Embedding and Knowledge Graph Embedding with TensorBoard**
+
+The app utilizes Python libraries, the REBEL model, and Graphviz for advanced graph visualization.
+
+<div align="center">
+  <img src= "https://github.com/user-attachments/assets/0ae1b3b9-e0ba-4166-93d6-5cde4f4d4ed5" width=600 height=300/>
+</div>
+
+Follow these steps to set up and run the web app.
+
+**Prerequisites**
+
+Ensure your environment meets the following requirements:
+
+1. Python 3.7 or higher
+2. `pip` (Python package installer)
+3. [Graphviz](https://graphviz.org/) for advanced graph visualization
+
+**Installation**
+
+1. **Clone the Repository**
+
+Fork the project and clone it to your local machine:
+
+```bash
+git clone https://github.com/dsgiitr/kge-clip.git
+cd kge-clip/deployment_dev
+```
+
+Set Up and Run the Flask App. Activate a virtual environment to manage dependencies:
+
+- **On Windows:**
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+- **On macOS/Linux:**
+``` bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+Install Dependencies
+Install the required Python packages:
+
+``` bash
+pip install flask transformers torch pandas networkx matplotlib plotly graphviz
+```
+
+Running the Flask App
+Activate the Virtual Environment and start the Flask App.
+
+- **On Windows:**
+
+``` bash
+venv\Scripts\activate
+set FLASK_APP=app.py
+
+``` 
+- **On macOS/Linux:**
+
+``` bash
+source venv/bin/activate
+export FLASK_APP=app.py
+```
+
+Run the Flask app with:
+
+```bash
+flask run
+```
+
+Open your web browser and navigate to `http://127.0.0.1:5000/` to start using the app.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
 
 ## Results and Comparisons
 
@@ -146,25 +315,7 @@ We compared traditional vector embeddings (Word2Vec, CLIP) with KGE across text 
 
 - 📂 **Results Folder**: Find the embedding result files [here](3.KG_Embeddings/assets/results/reduced_embeddings).
 
-## Visualizer App and User Guide
-We’ve developed a visualizer to compare text and image embeddings:
-- **Text Embeddings**: Visualize and compare embeddings using Streamlit.
-- **Image Embeddings**: Analyze image embeddings in the same space as text.
-- **KG Generation App**: Generate and explore Knowledge Graphs interactively.
-
-## Getting Started
-
-### Prerequisites
-- Python 3.x
-- Libraries: `PyTorch`, `PyKeen`, `t-SNE`, `PCA`, `UMAP`, `Streamlit`
-
-### Installation
-Clone the repository and install the required dependencies:
-```bash
-git clone https://github.com/dsgiitr/kge-clip.git
-cd kge-clip
-pip install -r requirements.txt
-```
+---------------------------------------------------------------------------------------------------------------------------------------
 
 ### Contributions
 
