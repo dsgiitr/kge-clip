@@ -3,7 +3,7 @@
 ![Knowledge Graph](https://github.com/AGAMPANDEYY/kge-clip-fork1/blob/main/media/KG_1.png)
 
 
-## You can access the full project documentation on [Gitbook Link](https://agam-pandey.gitbook.io/knowledge-graph-embedding-or-dsg-iitr/)!
+## You can access the full project documentation at [Gitbook Link](https://agam-pandey.gitbook.io/knowledge-graph-embedding-or-dsg-iitr/)!
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/02b2dab2-f1ba-4abe-a13a-ccb0b3791bb0" width="700" height="500"/>
