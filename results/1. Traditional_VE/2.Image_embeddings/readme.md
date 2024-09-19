@@ -1,4 +1,4 @@
-### Link for Kaggle dataset of 1000 corresponding iamges using 
+### Link for Kaggle dataset of 1000 corresponding images [Here](https://www.kaggle.com/datasets/anantjain1223/clip-image-coyo-1k)
 
 1. CLIP Image encooder
 
