@@ -18,7 +18,7 @@
 5. [PyKeen Knowledge Graph Embedding Training](https://github.com/dsgiitr/kge-clip/tree/main#5-pykeen-knowledge-graph-embedding-training)
 6. [Storing Embeddings in FAISS index](https://github.com/dsgiitr/kge-clip/tree/main#6-storing-embeddings-in-faiss-index)
 7. [Running the KG visualiser web-app](https://github.com/dsgiitr/kge-clip/tree/main#7-running-the-kg-visualiser-web-app)
-8. [RAG_VLM]
+8. [RAG_VLM](https://github.com/dsgiitr/kge-clip/tree/main#8-rag_vlm)
 
 ### Directory Structure
     .
