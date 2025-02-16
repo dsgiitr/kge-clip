@@ -1,6 +1,6 @@
 # Upgrading from Vectors to Graphs: Knowledge Graph Embeddings and Graph-RAG
 
-![Knowledge Graph](https://github.com/AGAMPANDEYY/kge-clip-fork1/blob/main/media/KG_1.png)
+![Knowledge Graph](https://github.com/dsgiitr/kge-clip/blob/main/media/KG_1.png)
 
 
 ## You can access the full project documentation at [Gitbook Link](https://agam-pandey.gitbook.io/knowledge-graph-embedding-or-dsg-iitr/)!
